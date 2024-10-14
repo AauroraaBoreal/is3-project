@@ -1,10 +1,13 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
 import torch
 import random
 import json
+import sys
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 app = Flask(__name__)
 CORS(app , resources={r"/chatbot": {"origins": "http://localhost:3000"}})  # Para manejar solicitudes de dominios cruzados
@@ -12,7 +15,7 @@ CORS(app , resources={r"/chatbot": {"origins": "http://localhost:3000"}})  # Par
 # Cargar los datos y el modelo de PyTorch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:
+with open('intents.json', 'r', encoding='utf-8') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -52,14 +55,9 @@ def get_response(msg):
     return "Disculpa, no te entiendo..."
 
 # Crear el endpoint de la API
-@app.route('/chatbot', methods=['POST', 'GET'])
+@app.route('/chatbot', methods=['POST'])
 def chatbot_response():
-    if request.method == 'GET':
-        return jsonify({"message": "Use POST method to interact with the chatbot."})
-
-    # Log the incoming request
-    app.logger.info('Received message: %s', request.data)
-
+    
     # Receive the JSON request and extract inputCode
     data = request.get_json()
     user_message = data.get("inputCode")  # Change this to match the incoming key
@@ -72,8 +70,7 @@ def chatbot_response():
     response = get_response(user_message)
 
     # Return the response in JSON format
-    return jsonify({"response": response})
-
+    return Response(json.dumps(response, ensure_ascii=False), content_type='application/json; charset=utf-8')
 if __name__ == "__main__":
     # Correr la aplicación Flask
     app.run(debug=True)
