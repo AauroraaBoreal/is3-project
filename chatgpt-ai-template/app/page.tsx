@@ -246,7 +246,7 @@ export default function Chat(props: { apiKeyApp: string }) {
             mb="20px"
             borderRadius="60px"
           >
-            <Flex
+            {/*<Flex
               cursor={'pointer'}
               transition="0.3s"
               justify={'center'}
@@ -311,10 +311,10 @@ export default function Chat(props: { apiKeyApp: string }) {
                 />
               </Flex>
               GPT-3.5
-            </Flex>
+            </Flex> */}
           </Flex>
 
-          <Accordion color={gray} allowToggle w="100%" my="0px" mx="auto">
+         {/*  <Accordion color={gray} allowToggle w="100%" my="0px" mx="auto">
             <AccordionItem border="none">
               <AccordionButton
                 borderBottom="0px solid"
@@ -341,7 +341,7 @@ export default function Chat(props: { apiKeyApp: string }) {
                 </Text>
               </AccordionPanel>
             </AccordionItem>
-          </Accordion>
+          </Accordion> */}
         </Flex>
         {/* Main Box */}
         <Flex
@@ -464,7 +464,7 @@ export default function Chat(props: { apiKeyApp: string }) {
           </Button>
         </Flex>
 
-        <Flex
+        {/* <Flex
           justify="center"
           mt="20px"
           direction={{ base: 'column', md: 'row' }}
@@ -484,7 +484,7 @@ export default function Chat(props: { apiKeyApp: string }) {
               ChatGPT May 12 Version
             </Text>
           </Link>
-        </Flex>
+        </Flex> */}
       </Flex>
     </Flex>
   );

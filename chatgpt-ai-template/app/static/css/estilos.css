@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: artifakt-element;
+    background-color: #f0f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-section, .right-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.left-section {
+    background-color: #eef7ff;
+    text-align: center;
+    position: relative; 
+}
+
+.left-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px; /* Espaciado entre inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Espaciado adicional para el botón */
+form button {
+    padding: 10px;
+    background-color: #005073;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio encima del botón */
+}
+
+form button:hover {
+    background-color: #003d56;
+}
+
+.google-login {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.google-btn {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+form .checkbox-label {
+    display: flex; /* Usar flexbox para alinear */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 15px; /* Espaciado debajo de cada checkbox */
+}
+
+form .checkbox-label input {
+    margin-right: 10px; /* Espacio a la derecha del checkbox */
+}
+
+.form-image {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 20px 0; /* Espaciado alrededor de la imagen */
+}

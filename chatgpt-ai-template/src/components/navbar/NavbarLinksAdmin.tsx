@@ -97,7 +97,7 @@ export default function HeaderLinks(props: {
         >
           {/* <Flex bgImage={navImage} borderRadius="16px" mb="28px" alt="" /> */}
           <Flex flexDirection="column">
-            <Link
+          {/*  <Link
               isExternal
               w="100%"
               href="https://horizon-ui.com/ai-template/"
@@ -114,8 +114,8 @@ export default function HeaderLinks(props: {
               >
                 Buy Horizon AI Template
               </Button>
-            </Link>
-            <Link
+            </Link>  */}
+          {/*  <Link
               isExternal
               w="100%"
               href="https://horizon-ui.com/docs-ai-template/"
@@ -138,7 +138,7 @@ export default function HeaderLinks(props: {
               >
                 See Documentation
               </Button>
-            </Link>
+            </Link> */}
             <Link
               w="100%"
               isExternal
