@@ -1,0 +1,2486 @@
+{
+  "intents": [
+    {
+      "tag": "descripcion_oseltamivir",
+      "patterns": [
+        "qué es Oseltamivir",
+        "describeme Oseltamivir",
+        "para qué sirve Oseltamivir",
+        "información sobre Oseltamivir",
+        "qué hace Oseltamivir"
+      ],
+      "responses": [
+        "Inhibidor de la neuraminidasa que se utiliza para tratar y prevenir la influenza A y B."
+      ]
+    },
+    {
+      "tag": "efectos_oseltamivir",
+      "patterns": [
+        "efectos secundarios de Oseltamivir",
+        "efectos adversos de Oseltamivir",
+        "qué efectos tiene Oseltamivir",
+        "cuáles son los efectos de Oseltamivir",
+        "qué efectos produce Oseltamivir"
+      ],
+      "responses": [
+        "NÃ¡useas, vÃ³mitos, dolor de cabeza, diarrea."
+      ]
+    },
+    {
+      "tag": "faq_oseltamivir",
+      "patterns": [
+        "Â¿CÃ³mo debo tomar oseltamivir para tratar la gripe?"
+      ],
+      "responses": [
+        "Se recomienda tomar oseltamivir dentro de las primeras 48 horas desde que aparecieron los sÃ­ntomas."
+      ]
+    },
+    {
+      "tag": "faq_oseltamivir",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios mÃ¡s comunes del oseltamivir?"
+      ],
+      "responses": [
+        "Los efectos secundarios mÃ¡s comunes son nÃ¡useas, vÃ³mitos y dolor de cabeza."
+      ]
+    },
+    {
+      "tag": "descripcion_zanamivir",
+      "patterns": [
+        "qué es Zanamivir",
+        "describeme Zanamivir",
+        "para qué sirve Zanamivir",
+        "información sobre Zanamivir",
+        "qué hace Zanamivir"
+      ],
+      "responses": [
+        "Inhibidor de la neuraminidasa inhalado, utilizado para tratar infecciones por virus de la influenza A y B."
+      ]
+    },
+    {
+      "tag": "efectos_zanamivir",
+      "patterns": [
+        "efectos secundarios de Zanamivir",
+        "efectos adversos de Zanamivir",
+        "qué efectos tiene Zanamivir",
+        "cuáles son los efectos de Zanamivir",
+        "qué efectos produce Zanamivir"
+      ],
+      "responses": [
+        "Tos, broncoespasmo, irritaciÃ³n de garganta."
+      ]
+    },
+    {
+      "tag": "faq_zanamivir",
+      "patterns": [
+        "Â¿CÃ³mo se administra zanamivir?"
+      ],
+      "responses": [
+        "Zanamivir se administra a travÃ©s de un inhalador."
+      ]
+    },
+    {
+      "tag": "faq_zanamivir",
+      "patterns": [
+        "Â¿Puedo usar zanamivir si tengo asma o EPOC?"
+      ],
+      "responses": [
+        "Se debe consultar a un mÃ©dico antes de usar zanamivir si tiene asma o EPOC."
+      ]
+    },
+    {
+      "tag": "faq_zanamivir",
+      "patterns": [
+        "Â¿CuÃ¡ndo es el mejor momento para empezar a tomar zanamivir?"
+      ],
+      "responses": [
+        "Es mÃ¡s efectivo si se toma dentro de las primeras 48 horas desde el inicio de los sÃ­ntomas."
+      ]
+    },
+    {
+      "tag": "descripcion_baloxavir marboxil",
+      "patterns": [
+        "qué es Baloxavir Marboxil",
+        "describeme Baloxavir Marboxil",
+        "para qué sirve Baloxavir Marboxil",
+        "información sobre Baloxavir Marboxil",
+        "qué hace Baloxavir Marboxil"
+      ],
+      "responses": [
+        "Inhibidor de la endonucleasa utilizado contra la influenza A y B, usado como tratamiento antiviral de dosis Ãºnica."
+      ]
+    },
+    {
+      "tag": "efectos_baloxavir marboxil",
+      "patterns": [
+        "efectos secundarios de Baloxavir Marboxil",
+        "efectos adversos de Baloxavir Marboxil",
+        "qué efectos tiene Baloxavir Marboxil",
+        "cuáles son los efectos de Baloxavir Marboxil",
+        "qué efectos produce Baloxavir Marboxil"
+      ],
+      "responses": [
+        "Diarrea, dolor de cabeza, nÃ¡useas."
+      ]
+    },
+    {
+      "tag": "faq_baloxavir marboxil",
+      "patterns": [
+        "Â¿QuÃ© tan rÃ¡pido funciona baloxavir marboxil?"
+      ],
+      "responses": [
+        "Baloxavir marboxil puede comenzar a reducir los sÃ­ntomas en menos de 24 horas."
+      ]
+    },
+    {
+      "tag": "faq_baloxavir marboxil",
+      "patterns": [
+        "Â¿CuÃ¡ntas dosis de baloxavir se necesitan para tratar la gripe?"
+      ],
+      "responses": [
+        "Normalmente se necesita una sola dosis."
+      ]
+    },
+    {
+      "tag": "faq_baloxavir marboxil",
+      "patterns": [
+        "Â¿Puede baloxavir prevenir la transmisiÃ³n de la gripe?"
+      ],
+      "responses": [
+        "Baloxavir puede ayudar a reducir la transmisiÃ³n si se administra a tiempo."
+      ]
+    },
+    {
+      "tag": "descripcion_amantadina",
+      "patterns": [
+        "qué es Amantadina",
+        "describeme Amantadina",
+        "para qué sirve Amantadina",
+        "información sobre Amantadina",
+        "qué hace Amantadina"
+      ],
+      "responses": [
+        "Antiviral utilizado para prevenir o tratar la influenza A, aunque su uso es limitado por la resistencia de las cepas actuales."
+      ]
+    },
+    {
+      "tag": "efectos_amantadina",
+      "patterns": [
+        "efectos secundarios de Amantadina",
+        "efectos adversos de Amantadina",
+        "qué efectos tiene Amantadina",
+        "cuáles son los efectos de Amantadina",
+        "qué efectos produce Amantadina"
+      ],
+      "responses": [
+        "Mareos, insomnio, sequedad bucal."
+      ]
+    },
+    {
+      "tag": "faq_amantadina",
+      "patterns": [
+        "Â¿Es la amantadina efectiva contra todas las cepas de la gripe?"
+      ],
+      "responses": [
+        "No, su efectividad ha disminuido debido a la resistencia."
+      ]
+    },
+    {
+      "tag": "faq_amantadina",
+      "patterns": [
+        "Â¿QuÃ© efectos secundarios puede causar la amantadina?"
+      ],
+      "responses": [
+        "Los efectos secundarios comunes incluyen mareos e insomnio."
+      ]
+    },
+    {
+      "tag": "faq_amantadina",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo debo tomar amantadina para la prevenciÃ³n de la gripe?"
+      ],
+      "responses": [
+        "Se recomienda tomarla durante la temporada de gripe."
+      ]
+    },
+    {
+      "tag": "descripcion_paracetamol",
+      "patterns": [
+        "qué es Paracetamol",
+        "describeme Paracetamol",
+        "para qué sirve Paracetamol",
+        "información sobre Paracetamol",
+        "qué hace Paracetamol"
+      ],
+      "responses": [
+        "AnalgÃ©sico y antipirÃ©tico comÃºnmente utilizado para aliviar los sÃ­ntomas de la fiebre y dolores asociados a la gripe."
+      ]
+    },
+    {
+      "tag": "efectos_paracetamol",
+      "patterns": [
+        "efectos secundarios de Paracetamol",
+        "efectos adversos de Paracetamol",
+        "qué efectos tiene Paracetamol",
+        "cuáles son los efectos de Paracetamol",
+        "qué efectos produce Paracetamol"
+      ],
+      "responses": [
+        "Riesgo de daÃ±o hepÃ¡tico en dosis altas."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿El paracetamol puede bajar la fiebre causada por la gripe?"
+      ],
+      "responses": [
+        "SÃ­, el paracetamol es efectivo para reducir la fiebre."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿Puedo combinar paracetamol con otros medicamentos para la gripe?"
+      ],
+      "responses": [
+        "Es importante consultar a un mÃ©dico antes de combinar medicamentos."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo tarda en hacer efecto el paracetamol?"
+      ],
+      "responses": [
+        "Generalmente comienza a hacer efecto en 30 minutos a 1 hora."
+      ]
+    },
+    {
+      "tag": "descripcion_ibuprofeno",
+      "patterns": [
+        "qué es Ibuprofeno",
+        "describeme Ibuprofeno",
+        "para qué sirve Ibuprofeno",
+        "información sobre Ibuprofeno",
+        "qué hace Ibuprofeno"
+      ],
+      "responses": [
+        "Antiinflamatorio no esteroideo (AINE) que se utiliza para reducir la fiebre y aliviar el dolor asociado a la gripe."
+      ]
+    },
+    {
+      "tag": "efectos_ibuprofeno",
+      "patterns": [
+        "efectos secundarios de Ibuprofeno",
+        "efectos adversos de Ibuprofeno",
+        "qué efectos tiene Ibuprofeno",
+        "cuáles son los efectos de Ibuprofeno",
+        "qué efectos produce Ibuprofeno"
+      ],
+      "responses": [
+        "Problemas gastrointestinales, nÃ¡useas, mareos."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿El ibuprofeno es seguro para tratar los sÃ­ntomas de la gripe?"
+      ],
+      "responses": [
+        "SÃ­, es seguro si se usa en las dosis recomendadas."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del uso prolongado de ibuprofeno?"
+      ],
+      "responses": [
+        "El uso prolongado puede causar problemas gastrointestinales."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿Puedo alternar ibuprofeno con paracetamol?"
+      ],
+      "responses": [
+        "SÃ­, se puede alternar bajo la supervisiÃ³n de un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "descripcion_aspirina",
+      "patterns": [
+        "qué es Aspirina",
+        "describeme Aspirina",
+        "para qué sirve Aspirina",
+        "información sobre Aspirina",
+        "qué hace Aspirina"
+      ],
+      "responses": [
+        "AINE utilizado para aliviar el dolor, la fiebre y la inflamaciÃ³n. No se recomienda en niÃ±os con sÃ­ntomas gripales debido al riesgo de sÃ­ndrome de Reye."
+      ]
+    },
+    {
+      "tag": "efectos_aspirina",
+      "patterns": [
+        "efectos secundarios de Aspirina",
+        "efectos adversos de Aspirina",
+        "qué efectos tiene Aspirina",
+        "cuáles son los efectos de Aspirina",
+        "qué efectos produce Aspirina"
+      ],
+      "responses": [
+        "Hemorragias estomacales, Ãºlceras, sÃ­ndrome de Reye en niÃ±os."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿Es segura la aspirina para tratar los sÃ­ntomas de la gripe?"
+      ],
+      "responses": [
+        "No se recomienda para niÃ±os y adolescentes."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿Por quÃ© no se recomienda la aspirina en niÃ±os?"
+      ],
+      "responses": [
+        "Debido al riesgo de sÃ­ndrome de Reye."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿Puedo tomar aspirina para reducir la fiebre gripal?"
+      ],
+      "responses": [
+        "SÃ­, pero con precauciÃ³n y no en niÃ±os."
+      ]
+    },
+    {
+      "tag": "descripcion_rimantadina",
+      "patterns": [
+        "qué es Rimantadina",
+        "describeme Rimantadina",
+        "para qué sirve Rimantadina",
+        "información sobre Rimantadina",
+        "qué hace Rimantadina"
+      ],
+      "responses": [
+        "Antiviral usado para prevenir y tratar la influenza A, con un mecanismo similar a la amantadina."
+      ]
+    },
+    {
+      "tag": "efectos_rimantadina",
+      "patterns": [
+        "efectos secundarios de Rimantadina",
+        "efectos adversos de Rimantadina",
+        "qué efectos tiene Rimantadina",
+        "cuáles son los efectos de Rimantadina",
+        "qué efectos produce Rimantadina"
+      ],
+      "responses": [
+        "NÃ¡useas, insomnio, mareos."
+      ]
+    },
+    {
+      "tag": "faq_rimantadina",
+      "patterns": [
+        "Â¿La rimantadina es efectiva contra la influenza A?"
+      ],
+      "responses": [
+        "SÃ­, es efectiva, pero su uso tambiÃ©n ha disminuido por resistencia."
+      ]
+    },
+    {
+      "tag": "faq_rimantadina",
+      "patterns": [
+        "Â¿QuÃ© debo hacer si olvido tomar una dosis de rimantadina?"
+      ],
+      "responses": [
+        "TÃ³mala tan pronto como lo recuerdes, pero no dupliques la dosis."
+      ]
+    },
+    {
+      "tag": "faq_rimantadina",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo debo tomar rimantadina?"
+      ],
+      "responses": [
+        "Se recomienda tomarla durante la duraciÃ³n de los sÃ­ntomas."
+      ]
+    },
+    {
+      "tag": "descripcion_dextrometorfano",
+      "patterns": [
+        "qué es Dextrometorfano",
+        "describeme Dextrometorfano",
+        "para qué sirve Dextrometorfano",
+        "información sobre Dextrometorfano",
+        "qué hace Dextrometorfano"
+      ],
+      "responses": [
+        "Supresor de la tos que se utiliza para aliviar la tos seca y persistente asociada con la gripe."
+      ]
+    },
+    {
+      "tag": "efectos_dextrometorfano",
+      "patterns": [
+        "efectos secundarios de Dextrometorfano",
+        "efectos adversos de Dextrometorfano",
+        "qué efectos tiene Dextrometorfano",
+        "cuáles son los efectos de Dextrometorfano",
+        "qué efectos produce Dextrometorfano"
+      ],
+      "responses": [
+        "Somnolencia, mareos, malestar estomacal."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo puedo usar dextrometorfano?"
+      ],
+      "responses": [
+        "No se recomienda usarlo por mÃ¡s de 7 dÃ­as sin consultar a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿Puedo tomar dextrometorfano con otros medicamentos?"
+      ],
+      "responses": [
+        "Es mejor consultar a un mÃ©dico antes de combinar."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del dextrometorfano?"
+      ],
+      "responses": [
+        "Los efectos secundarios comunes incluyen somnolencia y mareos."
+      ]
+    },
+    {
+      "tag": "descripcion_fenilefrina",
+      "patterns": [
+        "qué es Fenilefrina",
+        "describeme Fenilefrina",
+        "para qué sirve Fenilefrina",
+        "información sobre Fenilefrina",
+        "qué hace Fenilefrina"
+      ],
+      "responses": [
+        "Descongestionante que alivia la congestiÃ³n nasal causada por la gripe y los resfriados."
+      ]
+    },
+    {
+      "tag": "efectos_fenilefrina",
+      "patterns": [
+        "efectos secundarios de Fenilefrina",
+        "efectos adversos de Fenilefrina",
+        "qué efectos tiene Fenilefrina",
+        "cuáles son los efectos de Fenilefrina",
+        "qué efectos produce Fenilefrina"
+      ],
+      "responses": [
+        "Aumento de la presiÃ³n arterial, insomnio, nerviosismo."
+      ]
+    },
+    {
+      "tag": "faq_fenilefrina",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo tarda en hacer efecto la fenilefrina?"
+      ],
+      "responses": [
+        "Normalmente hace efecto en 15 a 30 minutos."
+      ]
+    },
+    {
+      "tag": "faq_fenilefrina",
+      "patterns": [
+        "Â¿Es seguro tomar fenilefrina con otros medicamentos?"
+      ],
+      "responses": [
+        "Consulta a un mÃ©dico antes de combinarla."
+      ]
+    },
+    {
+      "tag": "faq_fenilefrina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios mÃ¡s comunes?"
+      ],
+      "responses": [
+        "Los efectos secundarios incluyen nerviosismo y aumento de la presiÃ³n arterial."
+      ]
+    },
+    {
+      "tag": "descripcion_guaifenesina",
+      "patterns": [
+        "qué es Guaifenesina",
+        "describeme Guaifenesina",
+        "para qué sirve Guaifenesina",
+        "información sobre Guaifenesina",
+        "qué hace Guaifenesina"
+      ],
+      "responses": [
+        "Expectorante que ayuda a aflojar la mucosidad en los pulmones, facilitando la expulsiÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_guaifenesina",
+      "patterns": [
+        "efectos secundarios de Guaifenesina",
+        "efectos adversos de Guaifenesina",
+        "qué efectos tiene Guaifenesina",
+        "cuáles son los efectos de Guaifenesina",
+        "qué efectos produce Guaifenesina"
+      ],
+      "responses": [
+        "NÃ¡useas, mareos, somnolencia."
+      ]
+    },
+    {
+      "tag": "faq_guaifenesina",
+      "patterns": [
+        "Â¿CuÃ¡ndo debo tomar guaifenesina?"
+      ],
+      "responses": [
+        "Se puede tomar cada 4 a 6 horas segÃºn sea necesario."
+      ]
+    },
+    {
+      "tag": "faq_guaifenesina",
+      "patterns": [
+        "Â¿Es seguro usar guaifenesina durante el embarazo?"
+      ],
+      "responses": [
+        "Consulta a un mÃ©dico antes de usarla durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_guaifenesina",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de la guaifenesina?"
+      ],
+      "responses": [
+        "Ayuda a aliviar la congestiÃ³n y facilita la expulsiÃ³n de mucosidad."
+      ]
+    },
+    {
+      "tag": "descripcion_acetaminofeno/codeã­na",
+      "patterns": [
+        "qué es Acetaminofeno/CodeÃ­na",
+        "describeme Acetaminofeno/CodeÃ­na",
+        "para qué sirve Acetaminofeno/CodeÃ­na",
+        "información sobre Acetaminofeno/CodeÃ­na",
+        "qué hace Acetaminofeno/CodeÃ­na"
+      ],
+      "responses": [
+        "CombinaciÃ³n de analgÃ©sico y opioide utilizado para tratar dolores moderados a severos."
+      ]
+    },
+    {
+      "tag": "efectos_acetaminofeno/codeã­na",
+      "patterns": [
+        "efectos secundarios de Acetaminofeno/CodeÃ­na",
+        "efectos adversos de Acetaminofeno/CodeÃ­na",
+        "qué efectos tiene Acetaminofeno/CodeÃ­na",
+        "cuáles son los efectos de Acetaminofeno/CodeÃ­na",
+        "qué efectos produce Acetaminofeno/CodeÃ­na"
+      ],
+      "responses": [
+        "Somnolencia, nÃ¡useas, estreÃ±imiento."
+      ]
+    },
+    {
+      "tag": "faq_acetaminofeno/codeã­na",
+      "patterns": [
+        "Â¿CuÃ¡ndo debo usar acetaminofeno/codeÃ­na?"
+      ],
+      "responses": [
+        "Para el alivio del dolor moderado a severo, bajo supervisiÃ³n mÃ©dica."
+      ]
+    },
+    {
+      "tag": "faq_acetaminofeno/codeã­na",
+      "patterns": [
+        "Â¿Puede causar adicciÃ³n?"
+      ],
+      "responses": [
+        "La codeÃ­na tiene potencial adictivo; Ãºsala solo como se indique."
+      ]
+    },
+    {
+      "tag": "faq_acetaminofeno/codeã­na",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del uso prolongado?"
+      ],
+      "responses": [
+        "El uso prolongado puede causar dependencia y efectos gastrointestinales."
+      ]
+    },
+    {
+      "tag": "descripcion_zinc",
+      "patterns": [
+        "qué es Zinc",
+        "describeme Zinc",
+        "para qué sirve Zinc",
+        "información sobre Zinc",
+        "qué hace Zinc"
+      ],
+      "responses": [
+        "Mineral que puede ayudar a reducir la duraciÃ³n de los sÃ­ntomas de la gripe."
+      ]
+    },
+    {
+      "tag": "efectos_zinc",
+      "patterns": [
+        "efectos secundarios de Zinc",
+        "efectos adversos de Zinc",
+        "qué efectos tiene Zinc",
+        "cuáles son los efectos de Zinc",
+        "qué efectos produce Zinc"
+      ],
+      "responses": [
+        "NÃ¡useas, malestar estomacal, diarrea."
+      ]
+    },
+    {
+      "tag": "faq_zinc",
+      "patterns": [
+        "Â¿El zinc es efectivo para prevenir la gripe?"
+      ],
+      "responses": [
+        "Puede ayudar a reducir la duraciÃ³n de los sÃ­ntomas, pero no necesariamente previene la gripe."
+      ]
+    },
+    {
+      "tag": "faq_zinc",
+      "patterns": [
+        "Â¿CuÃ¡nto zinc debo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis varÃ­a, pero generalmente se recomienda entre 8-11 mg para adultos."
+      ]
+    },
+    {
+      "tag": "faq_zinc",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del zinc?"
+      ],
+      "responses": [
+        "Los efectos secundarios incluyen nÃ¡useas y malestar estomacal si se toma en altas dosis."
+      ]
+    },
+    {
+      "tag": "descripcion_equinã¡cea",
+      "patterns": [
+        "qué es EquinÃ¡cea",
+        "describeme EquinÃ¡cea",
+        "para qué sirve EquinÃ¡cea",
+        "información sobre EquinÃ¡cea",
+        "qué hace EquinÃ¡cea"
+      ],
+      "responses": [
+        "Planta que se utiliza para reforzar el sistema inmunolÃ³gico y puede ayudar a prevenir resfriados y gripes."
+      ]
+    },
+    {
+      "tag": "efectos_equinã¡cea",
+      "patterns": [
+        "efectos secundarios de EquinÃ¡cea",
+        "efectos adversos de EquinÃ¡cea",
+        "qué efectos tiene EquinÃ¡cea",
+        "cuáles son los efectos de EquinÃ¡cea",
+        "qué efectos produce EquinÃ¡cea"
+      ],
+      "responses": [
+        "Reacciones alÃ©rgicas en algunas personas."
+      ]
+    },
+    {
+      "tag": "faq_equinã¡cea",
+      "patterns": [
+        "Â¿CÃ³mo se toma la equinÃ¡cea?"
+      ],
+      "responses": [
+        "Se puede tomar en forma de tÃ©, extracto o cÃ¡psulas."
+      ]
+    },
+    {
+      "tag": "faq_equinã¡cea",
+      "patterns": [
+        "Â¿Es segura la equinÃ¡cea para los niÃ±os?"
+      ],
+      "responses": [
+        "Se recomienda consultar a un mÃ©dico antes de dar equinÃ¡cea a niÃ±os."
+      ]
+    },
+    {
+      "tag": "faq_equinã¡cea",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de la equinÃ¡cea?"
+      ],
+      "responses": [
+        "Puede ayudar a reducir la duraciÃ³n y severidad de los resfriados."
+      ]
+    },
+    {
+      "tag": "descripcion_echinacea",
+      "patterns": [
+        "qué es Echinacea",
+        "describeme Echinacea",
+        "para qué sirve Echinacea",
+        "información sobre Echinacea",
+        "qué hace Echinacea"
+      ],
+      "responses": [
+        "Planta utilizada para tratar infecciones respiratorias y fortalecer el sistema inmunolÃ³gico."
+      ]
+    },
+    {
+      "tag": "efectos_echinacea",
+      "patterns": [
+        "efectos secundarios de Echinacea",
+        "efectos adversos de Echinacea",
+        "qué efectos tiene Echinacea",
+        "cuáles son los efectos de Echinacea",
+        "qué efectos produce Echinacea"
+      ],
+      "responses": [
+        "Posibles reacciones alÃ©rgicas en personas sensibles."
+      ]
+    },
+    {
+      "tag": "faq_echinacea",
+      "patterns": [
+        "Â¿CuÃ¡ndo debo empezar a tomar echinacea para prevenir la gripe?"
+      ],
+      "responses": [
+        "Se recomienda comenzar al primer signo de sÃ­ntomas."
+      ]
+    },
+    {
+      "tag": "faq_echinacea",
+      "patterns": [
+        "Â¿Es seguro tomar echinacea durante el embarazo?"
+      ],
+      "responses": [
+        "Se debe consultar a un mÃ©dico antes de usar durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_echinacea",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la echinacea?"
+      ],
+      "responses": [
+        "Pueden incluir reacciones alÃ©rgicas, especialmente en personas alÃ©rgicas a las margaritas."
+      ]
+    },
+    {
+      "tag": "descripcion_tã© de menta",
+      "patterns": [
+        "qué es TÃ© de menta",
+        "describeme TÃ© de menta",
+        "para qué sirve TÃ© de menta",
+        "información sobre TÃ© de menta",
+        "qué hace TÃ© de menta"
+      ],
+      "responses": [
+        "Bebida herbal que puede ayudar a aliviar el dolor de garganta y la congestiÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_tã© de menta",
+      "patterns": [
+        "efectos secundarios de TÃ© de menta",
+        "efectos adversos de TÃ© de menta",
+        "qué efectos tiene TÃ© de menta",
+        "cuáles son los efectos de TÃ© de menta",
+        "qué efectos produce TÃ© de menta"
+      ],
+      "responses": [
+        "IrritaciÃ³n en el estÃ³mago en algunas personas."
+      ]
+    },
+    {
+      "tag": "faq_tã© de menta",
+      "patterns": [
+        "Â¿CÃ³mo se prepara el tÃ© de menta?"
+      ],
+      "responses": [
+        "Se prepara infusionando hojas de menta en agua caliente."
+      ]
+    },
+    {
+      "tag": "faq_tã© de menta",
+      "patterns": [
+        "Â¿Puedo tomar tÃ© de menta si tengo reflujo Ã¡cido?"
+      ],
+      "responses": [
+        "Puede agravar el reflujo; consulta a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_tã© de menta",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios del tÃ© de menta?"
+      ],
+      "responses": [
+        "Alivia el dolor de garganta y puede ayudar con la digestiÃ³n."
+      ]
+    },
+    {
+      "tag": "descripcion_miel",
+      "patterns": [
+        "qué es Miel",
+        "describeme Miel",
+        "para qué sirve Miel",
+        "información sobre Miel",
+        "qué hace Miel"
+      ],
+      "responses": [
+        "Sustancia natural que ayuda a calmar la garganta y puede aliviar la tos."
+      ]
+    },
+    {
+      "tag": "efectos_miel",
+      "patterns": [
+        "efectos secundarios de Miel",
+        "efectos adversos de Miel",
+        "qué efectos tiene Miel",
+        "cuáles son los efectos de Miel",
+        "qué efectos produce Miel"
+      ],
+      "responses": [
+        "No se recomienda en niÃ±os menores de un aÃ±o debido al riesgo de botulismo."
+      ]
+    },
+    {
+      "tag": "faq_miel",
+      "patterns": [
+        "Â¿CuÃ¡nto miel debo tomar para aliviar la tos?"
+      ],
+      "responses": [
+        "Se recomienda una cucharada; no exceder la dosis."
+      ]
+    },
+    {
+      "tag": "faq_miel",
+      "patterns": [
+        "Â¿Puedo combinar miel con otros remedios caseros?"
+      ],
+      "responses": [
+        "SÃ­, es efectiva en combinaciÃ³n con tÃ© o limÃ³n."
+      ]
+    },
+    {
+      "tag": "faq_miel",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de la miel?"
+      ],
+      "responses": [
+        "Alivia la tos y puede tener propiedades antimicrobianas."
+      ]
+    },
+    {
+      "tag": "descripcion_melaza",
+      "patterns": [
+        "qué es Melaza",
+        "describeme Melaza",
+        "para qué sirve Melaza",
+        "información sobre Melaza",
+        "qué hace Melaza"
+      ],
+      "responses": [
+        "Sustancia rica en nutrientes que puede ayudar a aliviar la tos y mejorar la inmunidad."
+      ]
+    },
+    {
+      "tag": "efectos_melaza",
+      "patterns": [
+        "efectos secundarios de Melaza",
+        "efectos adversos de Melaza",
+        "qué efectos tiene Melaza",
+        "cuáles son los efectos de Melaza",
+        "qué efectos produce Melaza"
+      ],
+      "responses": [
+        "Alto contenido de azÃºcar, puede no ser adecuada para personas con diabetes."
+      ]
+    },
+    {
+      "tag": "faq_melaza",
+      "patterns": [
+        "Â¿CÃ³mo puedo usar melaza para aliviar la tos?"
+      ],
+      "responses": [
+        "Una cucharada mezclada con agua caliente puede ser efectiva."
+      ]
+    },
+    {
+      "tag": "faq_melaza",
+      "patterns": [
+        "Â¿CuÃ¡ntas cucharadas de melaza puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "Una a dos cucharadas, dependiendo de las necesidades."
+      ]
+    },
+    {
+      "tag": "faq_melaza",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de la melaza?"
+      ],
+      "responses": [
+        "Es rica en minerales y puede ayudar a mejorar la salud general."
+      ]
+    },
+    {
+      "tag": "descripcion_ajo",
+      "patterns": [
+        "qué es Ajo",
+        "describeme Ajo",
+        "para qué sirve Ajo",
+        "información sobre Ajo",
+        "qué hace Ajo"
+      ],
+      "responses": [
+        "Alimento con propiedades antimicrobianas que puede ayudar a fortalecer el sistema inmunolÃ³gico."
+      ]
+    },
+    {
+      "tag": "efectos_ajo",
+      "patterns": [
+        "efectos secundarios de Ajo",
+        "efectos adversos de Ajo",
+        "qué efectos tiene Ajo",
+        "cuáles son los efectos de Ajo",
+        "qué efectos produce Ajo"
+      ],
+      "responses": [
+        "Mal aliento, problemas gastrointestinales."
+      ]
+    },
+    {
+      "tag": "faq_ajo",
+      "patterns": [
+        "Â¿CÃ³mo puedo usar ajo para prevenir la gripe?"
+      ],
+      "responses": [
+        "Se recomienda consumir ajo crudo o en cÃ¡psulas."
+      ]
+    },
+    {
+      "tag": "faq_ajo",
+      "patterns": [
+        "Â¿Es seguro consumir ajo crudo?"
+      ],
+      "responses": [
+        "SÃ­, pero puede causar malestar estomacal en algunas personas."
+      ]
+    },
+    {
+      "tag": "faq_ajo",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios del ajo?"
+      ],
+      "responses": [
+        "Puede ayudar a fortalecer el sistema inmunolÃ³gico y combatir infecciones."
+      ]
+    },
+    {
+      "tag": "descripcion_cãºrcuma",
+      "patterns": [
+        "qué es CÃºrcuma",
+        "describeme CÃºrcuma",
+        "para qué sirve CÃºrcuma",
+        "información sobre CÃºrcuma",
+        "qué hace CÃºrcuma"
+      ],
+      "responses": [
+        "Especia con propiedades antiinflamatorias que puede ayudar a aliviar los sÃ­ntomas de la gripe."
+      ]
+    },
+    {
+      "tag": "efectos_cãºrcuma",
+      "patterns": [
+        "efectos secundarios de CÃºrcuma",
+        "efectos adversos de CÃºrcuma",
+        "qué efectos tiene CÃºrcuma",
+        "cuáles son los efectos de CÃºrcuma",
+        "qué efectos produce CÃºrcuma"
+      ],
+      "responses": [
+        "Pueden presentarse problemas gastrointestinales en dosis altas."
+      ]
+    },
+    {
+      "tag": "faq_cãºrcuma",
+      "patterns": [
+        "Â¿CÃ³mo puedo usar cÃºrcuma para tratar la gripe?"
+      ],
+      "responses": [
+        "Se puede aÃ±adir a comidas o consumir en forma de tÃ©."
+      ]
+    },
+    {
+      "tag": "faq_cãºrcuma",
+      "patterns": [
+        "Â¿La cÃºrcuma puede interactuar con otros medicamentos?"
+      ],
+      "responses": [
+        "SÃ­, puede afectar la coagulaciÃ³n de la sangre; consulta a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_cãºrcuma",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de la cÃºrcuma?"
+      ],
+      "responses": [
+        "Es antiinflamatoria y puede ayudar a aliviar el dolor y la inflamaciÃ³n."
+      ]
+    },
+    {
+      "tag": "descripcion_vitamina d",
+      "patterns": [
+        "qué es Vitamina D",
+        "describeme Vitamina D",
+        "para qué sirve Vitamina D",
+        "información sobre Vitamina D",
+        "qué hace Vitamina D"
+      ],
+      "responses": [
+        "Suplemento que puede ayudar a fortalecer el sistema inmunolÃ³gico y prevenir infecciones respiratorias."
+      ]
+    },
+    {
+      "tag": "efectos_vitamina d",
+      "patterns": [
+        "efectos secundarios de Vitamina D",
+        "efectos adversos de Vitamina D",
+        "qué efectos tiene Vitamina D",
+        "cuáles son los efectos de Vitamina D",
+        "qué efectos produce Vitamina D"
+      ],
+      "responses": [
+        "Posible toxicidad en altas dosis."
+      ]
+    },
+    {
+      "tag": "faq_vitamina d",
+      "patterns": [
+        "Â¿CuÃ¡nto vitamina D debo tomar durante la gripe?"
+      ],
+      "responses": [
+        "La dosis recomendada varÃ­a; consulta a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_vitamina d",
+      "patterns": [
+        "Â¿La vitamina D previene las infecciones respiratorias?"
+      ],
+      "responses": [
+        "Puede ayudar a reducir el riesgo de infecciones respiratorias."
+      ]
+    },
+    {
+      "tag": "faq_vitamina d",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la vitamina D?"
+      ],
+      "responses": [
+        "Altas dosis pueden causar toxicidad y problemas renales."
+      ]
+    },
+    {
+      "tag": "descripcion_tã© de manzanilla",
+      "patterns": [
+        "qué es TÃ© de manzanilla",
+        "describeme TÃ© de manzanilla",
+        "para qué sirve TÃ© de manzanilla",
+        "información sobre TÃ© de manzanilla",
+        "qué hace TÃ© de manzanilla"
+      ],
+      "responses": [
+        "Bebida herbal que puede ayudar a calmar la garganta y mejorar el sueÃ±o."
+      ]
+    },
+    {
+      "tag": "efectos_tã© de manzanilla",
+      "patterns": [
+        "efectos secundarios de TÃ© de manzanilla",
+        "efectos adversos de TÃ© de manzanilla",
+        "qué efectos tiene TÃ© de manzanilla",
+        "cuáles son los efectos de TÃ© de manzanilla",
+        "qué efectos produce TÃ© de manzanilla"
+      ],
+      "responses": [
+        "Reacciones alÃ©rgicas en algunas personas, especialmente aquellas con alergia a las plantas de la familia de las margaritas."
+      ]
+    },
+    {
+      "tag": "faq_tã© de manzanilla",
+      "patterns": [
+        "Â¿CÃ³mo se prepara el tÃ© de manzanilla?"
+      ],
+      "responses": [
+        "Se prepara infusionando flores secas de manzanilla en agua caliente."
+      ]
+    },
+    {
+      "tag": "faq_tã© de manzanilla",
+      "patterns": [
+        "Â¿Puedo tomar tÃ© de manzanilla antes de dormir?"
+      ],
+      "responses": [
+        "SÃ­, puede ayudar a mejorar el sueÃ±o."
+      ]
+    },
+    {
+      "tag": "faq_tã© de manzanilla",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios del tÃ© de manzanilla?"
+      ],
+      "responses": [
+        "Alivia el estrÃ©s y puede ayudar con problemas digestivos."
+      ]
+    },
+    {
+      "tag": "descripcion_vitamã­nico multinutriente",
+      "patterns": [
+        "qué es VitamÃ­nico Multinutriente",
+        "describeme VitamÃ­nico Multinutriente",
+        "para qué sirve VitamÃ­nico Multinutriente",
+        "información sobre VitamÃ­nico Multinutriente",
+        "qué hace VitamÃ­nico Multinutriente"
+      ],
+      "responses": [
+        "Suplemento que combina varias vitaminas y minerales, puede ayudar a mantener el sistema inmunolÃ³gico."
+      ]
+    },
+    {
+      "tag": "efectos_vitamã­nico multinutriente",
+      "patterns": [
+        "efectos secundarios de VitamÃ­nico Multinutriente",
+        "efectos adversos de VitamÃ­nico Multinutriente",
+        "qué efectos tiene VitamÃ­nico Multinutriente",
+        "cuáles son los efectos de VitamÃ­nico Multinutriente",
+        "qué efectos produce VitamÃ­nico Multinutriente"
+      ],
+      "responses": [
+        "Malestar gastrointestinal en algunos casos."
+      ]
+    },
+    {
+      "tag": "faq_vitamã­nico multinutriente",
+      "patterns": [
+        "Â¿Debo tomar un multivitamÃ­nico durante la gripe?"
+      ],
+      "responses": [
+        "SÃ­, un multivitamÃ­nico puede ayudar a mantener el sistema inmunolÃ³gico, especialmente durante la gripe."
+      ]
+    },
+    {
+      "tag": "faq_vitamã­nico multinutriente",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios de un multivitamÃ­nico?"
+      ],
+      "responses": [
+        "Los multivitamÃ­nicos ayudan a cubrir deficiencias nutricionales y apoyan la salud general."
+      ]
+    },
+    {
+      "tag": "faq_vitamã­nico multinutriente",
+      "patterns": [
+        "Â¿Es seguro tomar un multivitamÃ­nico diariamente?"
+      ],
+      "responses": [
+        "Generalmente es seguro, pero siempre es recomendable consultar a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "descripcion_probioticos",
+      "patterns": [
+        "qué es Probioticos",
+        "describeme Probioticos",
+        "para qué sirve Probioticos",
+        "información sobre Probioticos",
+        "qué hace Probioticos"
+      ],
+      "responses": [
+        "Suplementos que ayudan a mantener la salud intestinal y pueden fortalecer el sistema inmunolÃ³gico."
+      ]
+    },
+    {
+      "tag": "efectos_probioticos",
+      "patterns": [
+        "efectos secundarios de Probioticos",
+        "efectos adversos de Probioticos",
+        "qué efectos tiene Probioticos",
+        "cuáles son los efectos de Probioticos",
+        "qué efectos produce Probioticos"
+      ],
+      "responses": [
+        "Gas y distensiÃ³n abdominal en algunas personas."
+      ]
+    },
+    {
+      "tag": "faq_probioticos",
+      "patterns": [
+        "Â¿QuÃ© son los probiÃ³ticos y cÃ³mo ayudan a la salud?"
+      ],
+      "responses": [
+        "Los probiÃ³ticos son microorganismos que benefician la salud digestiva y pueden fortalecer el sistema inmunolÃ³gico."
+      ]
+    },
+    {
+      "tag": "faq_probioticos",
+      "patterns": [
+        "Â¿Es seguro tomar probiÃ³ticos durante la gripe?"
+      ],
+      "responses": [
+        "SÃ­, los probiÃ³ticos son generalmente seguros y pueden ser beneficiosos durante la gripe."
+      ]
+    },
+    {
+      "tag": "faq_probioticos",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de los probiÃ³ticos?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir gas y distensiÃ³n abdominal."
+      ]
+    },
+    {
+      "tag": "descripcion_sulfato de magnesio",
+      "patterns": [
+        "qué es Sulfato de magnesio",
+        "describeme Sulfato de magnesio",
+        "para qué sirve Sulfato de magnesio",
+        "información sobre Sulfato de magnesio",
+        "qué hace Sulfato de magnesio"
+      ],
+      "responses": [
+        "Suplemento mineral que puede ayudar a mantener la funciÃ³n muscular y nerviosa."
+      ]
+    },
+    {
+      "tag": "efectos_sulfato de magnesio",
+      "patterns": [
+        "efectos secundarios de Sulfato de magnesio",
+        "efectos adversos de Sulfato de magnesio",
+        "qué efectos tiene Sulfato de magnesio",
+        "cuáles son los efectos de Sulfato de magnesio",
+        "qué efectos produce Sulfato de magnesio"
+      ],
+      "responses": [
+        "Diarrea, nÃ¡useas, y calambres abdominales."
+      ]
+    },
+    {
+      "tag": "faq_sulfato de magnesio",
+      "patterns": [
+        "Â¿CuÃ¡nto sulfato de magnesio debo tomar?"
+      ],
+      "responses": [
+        "La dosis depende de la condiciÃ³n a tratar, es mejor consultar a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_sulfato de magnesio",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios del sulfato de magnesio?"
+      ],
+      "responses": [
+        "Ayuda en la funciÃ³n muscular y nerviosa, y puede ser Ãºtil en casos de deficiencia."
+      ]
+    },
+    {
+      "tag": "faq_sulfato de magnesio",
+      "patterns": [
+        "Â¿Puede el sulfato de magnesio ayudar con la congestiÃ³n?"
+      ],
+      "responses": [
+        "No estÃ¡ indicado especÃ­ficamente para la congestiÃ³n, pero puede tener efectos relajantes."
+      ]
+    },
+    {
+      "tag": "descripcion_sirope de cebolla",
+      "patterns": [
+        "qué es Sirope de cebolla",
+        "describeme Sirope de cebolla",
+        "para qué sirve Sirope de cebolla",
+        "información sobre Sirope de cebolla",
+        "qué hace Sirope de cebolla"
+      ],
+      "responses": [
+        "Remedio casero que puede ayudar a aliviar la tos y la congestiÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_sirope de cebolla",
+      "patterns": [
+        "efectos secundarios de Sirope de cebolla",
+        "efectos adversos de Sirope de cebolla",
+        "qué efectos tiene Sirope de cebolla",
+        "cuáles son los efectos de Sirope de cebolla",
+        "qué efectos produce Sirope de cebolla"
+      ],
+      "responses": [
+        "Posible irritaciÃ³n gÃ¡strica en algunas personas."
+      ]
+    },
+    {
+      "tag": "faq_sirope de cebolla",
+      "patterns": [
+        "Â¿CÃ³mo se prepara el sirope de cebolla?"
+      ],
+      "responses": [
+        "Se puede preparar hirviendo cebolla picada con azÃºcar o miel."
+      ]
+    },
+    {
+      "tag": "faq_sirope de cebolla",
+      "patterns": [
+        "Â¿Es seguro para los niÃ±os?"
+      ],
+      "responses": [
+        "SÃ­, pero es recomendable consultar a un pediatra antes de administrarlo."
+      ]
+    },
+    {
+      "tag": "faq_sirope de cebolla",
+      "patterns": [
+        "Â¿CuÃ¡les son los beneficios del sirope de cebolla?"
+      ],
+      "responses": [
+        "Ayuda a aliviar la tos y puede tener propiedades antimicrobianas."
+      ]
+    },
+    {
+      "tag": "descripcion_nimesulida",
+      "patterns": [
+        "qué es Nimesulida",
+        "describeme Nimesulida",
+        "para qué sirve Nimesulida",
+        "información sobre Nimesulida",
+        "qué hace Nimesulida"
+      ],
+      "responses": [
+        "AINE utilizado para aliviar el dolor y la inflamaciÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_nimesulida",
+      "patterns": [
+        "efectos secundarios de Nimesulida",
+        "efectos adversos de Nimesulida",
+        "qué efectos tiene Nimesulida",
+        "cuáles son los efectos de Nimesulida",
+        "qué efectos produce Nimesulida"
+      ],
+      "responses": [
+        "Problemas gastrointestinales, rash cutÃ¡neo."
+      ]
+    },
+    {
+      "tag": "faq_nimesulida",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo puedo usar nimesulida?"
+      ],
+      "responses": [
+        "No se recomienda usar nimesulida por mÃ¡s de 15 dÃ­as sin consultar a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_nimesulida",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de nimesulida?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir problemas gastrointestinales y rash cutÃ¡neo."
+      ]
+    },
+    {
+      "tag": "faq_nimesulida",
+      "patterns": [
+        "Â¿Es segura la nimesulida durante el embarazo?"
+      ],
+      "responses": [
+        "No se recomienda su uso durante el embarazo, consulte a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "descripcion_paracetamol",
+      "patterns": [
+        "qué es Paracetamol",
+        "describeme Paracetamol",
+        "para qué sirve Paracetamol",
+        "información sobre Paracetamol",
+        "qué hace Paracetamol"
+      ],
+      "responses": [
+        "Analgesico y antipirÃ©tico comÃºnmente usado para aliviar el dolor y la fiebre."
+      ]
+    },
+    {
+      "tag": "efectos_paracetamol",
+      "patterns": [
+        "efectos secundarios de Paracetamol",
+        "efectos adversos de Paracetamol",
+        "qué efectos tiene Paracetamol",
+        "cuáles son los efectos de Paracetamol",
+        "qué efectos produce Paracetamol"
+      ],
+      "responses": [
+        "DaÃ±o hepÃ¡tico en altas dosis."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿CuÃ¡nto paracetamol puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis mÃ¡xima es de 4 gramos al dÃ­a para un adulto, pero es mejor seguir las indicaciones del mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿Es seguro usar paracetamol durante el embarazo?"
+      ],
+      "responses": [
+        "Generalmente se considera seguro, pero debe ser utilizado bajo supervisiÃ³n mÃ©dica."
+      ]
+    },
+    {
+      "tag": "faq_paracetamol",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del paracetamol?"
+      ],
+      "responses": [
+        "El uso excesivo puede causar daÃ±o hepÃ¡tico."
+      ]
+    },
+    {
+      "tag": "descripcion_ibuprofeno",
+      "patterns": [
+        "qué es Ibuprofeno",
+        "describeme Ibuprofeno",
+        "para qué sirve Ibuprofeno",
+        "información sobre Ibuprofeno",
+        "qué hace Ibuprofeno"
+      ],
+      "responses": [
+        "AINE utilizado para aliviar el dolor y reducir la inflamaciÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_ibuprofeno",
+      "patterns": [
+        "efectos secundarios de Ibuprofeno",
+        "efectos adversos de Ibuprofeno",
+        "qué efectos tiene Ibuprofeno",
+        "cuáles son los efectos de Ibuprofeno",
+        "qué efectos produce Ibuprofeno"
+      ],
+      "responses": [
+        "Problemas gastrointestinales, mareos."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿CuÃ¡nto ibuprofeno puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis mÃ¡xima es de 1200 mg a 2400 mg al dÃ­a, dependiendo de la condiciÃ³n."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿Es seguro usar ibuprofeno durante el embarazo?"
+      ],
+      "responses": [
+        "No se recomienda en el tercer trimestre, debe ser utilizado con precauciÃ³n en los primeros trimestres."
+      ]
+    },
+    {
+      "tag": "faq_ibuprofeno",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del ibuprofeno?"
+      ],
+      "responses": [
+        "Pueden incluir problemas gastrointestinales y mareos."
+      ]
+    },
+    {
+      "tag": "descripcion_aspirina",
+      "patterns": [
+        "qué es Aspirina",
+        "describeme Aspirina",
+        "para qué sirve Aspirina",
+        "información sobre Aspirina",
+        "qué hace Aspirina"
+      ],
+      "responses": [
+        "AINE utilizado para aliviar el dolor y reducir la inflamaciÃ³n."
+      ]
+    },
+    {
+      "tag": "efectos_aspirina",
+      "patterns": [
+        "efectos secundarios de Aspirina",
+        "efectos adversos de Aspirina",
+        "qué efectos tiene Aspirina",
+        "cuáles son los efectos de Aspirina",
+        "qué efectos produce Aspirina"
+      ],
+      "responses": [
+        "Riesgo de sangrado, problemas gastrointestinales."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿CuÃ¡nto aspirina puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis puede variar, pero generalmente no debe exceder los 3000 mg al dÃ­a."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿Es seguro usar aspirina durante el embarazo?"
+      ],
+      "responses": [
+        "No se recomienda, especialmente en el tercer trimestre."
+      ]
+    },
+    {
+      "tag": "faq_aspirina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la aspirina?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir riesgo de sangrado y problemas gastrointestinales."
+      ]
+    },
+    {
+      "tag": "descripcion_morfina",
+      "patterns": [
+        "qué es Morfina",
+        "describeme Morfina",
+        "para qué sirve Morfina",
+        "información sobre Morfina",
+        "qué hace Morfina"
+      ],
+      "responses": [
+        "Opioide utilizado para aliviar el dolor intenso."
+      ]
+    },
+    {
+      "tag": "efectos_morfina",
+      "patterns": [
+        "efectos secundarios de Morfina",
+        "efectos adversos de Morfina",
+        "qué efectos tiene Morfina",
+        "cuáles son los efectos de Morfina",
+        "qué efectos produce Morfina"
+      ],
+      "responses": [
+        "Dependencia, somnolencia, estreÃ±imiento."
+      ]
+    },
+    {
+      "tag": "faq_morfina",
+      "patterns": [
+        "Â¿CuÃ¡nto tiempo puedo usar morfina?"
+      ],
+      "responses": [
+        "La morfina debe ser utilizada bajo estricta supervisiÃ³n mÃ©dica debido al riesgo de dependencia."
+      ]
+    },
+    {
+      "tag": "faq_morfina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la morfina?"
+      ],
+      "responses": [
+        "Los efectos secundarios incluyen somnolencia, estreÃ±imiento y riesgo de dependencia."
+      ]
+    },
+    {
+      "tag": "faq_morfina",
+      "patterns": [
+        "Â¿Es segura la morfina para el tratamiento del dolor crÃ³nico?"
+      ],
+      "responses": [
+        "Puede ser efectiva, pero requiere una evaluaciÃ³n cuidadosa y un monitoreo regular."
+      ]
+    },
+    {
+      "tag": "descripcion_dextrometorfano",
+      "patterns": [
+        "qué es Dextrometorfano",
+        "describeme Dextrometorfano",
+        "para qué sirve Dextrometorfano",
+        "información sobre Dextrometorfano",
+        "qué hace Dextrometorfano"
+      ],
+      "responses": [
+        "Supresor de la tos que se utiliza para aliviar la tos seca."
+      ]
+    },
+    {
+      "tag": "efectos_dextrometorfano",
+      "patterns": [
+        "efectos secundarios de Dextrometorfano",
+        "efectos adversos de Dextrometorfano",
+        "qué efectos tiene Dextrometorfano",
+        "cuáles son los efectos de Dextrometorfano",
+        "qué efectos produce Dextrometorfano"
+      ],
+      "responses": [
+        "Somnolencia, mareos."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿CuÃ¡nto dextrometorfano puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis tÃ­pica es de 10 a 20 mg cada 4 horas, sin exceder 120 mg al dÃ­a."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿Es seguro usar dextrometorfano durante el embarazo?"
+      ],
+      "responses": [
+        "Se recomienda consultar a un mÃ©dico antes de su uso durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_dextrometorfano",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del dextrometorfano?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir somnolencia y mareos."
+      ]
+    },
+    {
+      "tag": "descripcion_guafenesina",
+      "patterns": [
+        "qué es Guafenesina",
+        "describeme Guafenesina",
+        "para qué sirve Guafenesina",
+        "información sobre Guafenesina",
+        "qué hace Guafenesina"
+      ],
+      "responses": [
+        "Expectorante utilizado para ayudar a eliminar la mucosidad de las vÃ­as respiratorias."
+      ]
+    },
+    {
+      "tag": "efectos_guafenesina",
+      "patterns": [
+        "efectos secundarios de Guafenesina",
+        "efectos adversos de Guafenesina",
+        "qué efectos tiene Guafenesina",
+        "cuáles son los efectos de Guafenesina",
+        "qué efectos produce Guafenesina"
+      ],
+      "responses": [
+        "Malestar estomacal, mareos."
+      ]
+    },
+    {
+      "tag": "faq_guafenesina",
+      "patterns": [
+        "Â¿CuÃ¡nto guafenesina debo tomar?"
+      ],
+      "responses": [
+        "La dosis recomendada es de 200 mg a 400 mg cada 4 horas, sin exceder 2400 mg al dÃ­a."
+      ]
+    },
+    {
+      "tag": "faq_guafenesina",
+      "patterns": [
+        "Â¿Es seguro usar guafenesina durante el embarazo?"
+      ],
+      "responses": [
+        "Es recomendable consultar a un mÃ©dico antes de usarlo durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_guafenesina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la guafenesina?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir malestar estomacal y mareos."
+      ]
+    },
+    {
+      "tag": "descripcion_codeã­na",
+      "patterns": [
+        "qué es CodeÃ­na",
+        "describeme CodeÃ­na",
+        "para qué sirve CodeÃ­na",
+        "información sobre CodeÃ­na",
+        "qué hace CodeÃ­na"
+      ],
+      "responses": [
+        "Opioide utilizado para tratar la tos y aliviar el dolor."
+      ]
+    },
+    {
+      "tag": "efectos_codeã­na",
+      "patterns": [
+        "efectos secundarios de CodeÃ­na",
+        "efectos adversos de CodeÃ­na",
+        "qué efectos tiene CodeÃ­na",
+        "cuáles son los efectos de CodeÃ­na",
+        "qué efectos produce CodeÃ­na"
+      ],
+      "responses": [
+        "Dependencia, somnolencia, estreÃ±imiento."
+      ]
+    },
+    {
+      "tag": "faq_codeã­na",
+      "patterns": [
+        "Â¿CuÃ¡nto codeÃ­na puedo tomar al dÃ­a?"
+      ],
+      "responses": [
+        "La dosis diaria depende de la indicaciÃ³n mÃ©dica y la formulaciÃ³n especÃ­fica."
+      ]
+    },
+    {
+      "tag": "faq_codeã­na",
+      "patterns": [
+        "Â¿Es seguro usar codeÃ­na durante el embarazo?"
+      ],
+      "responses": [
+        "Se recomienda consultar a un mÃ©dico antes de usarla durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_codeã­na",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la codeÃ­na?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir dependencia, somnolencia y estreÃ±imiento."
+      ]
+    },
+    {
+      "tag": "descripcion_antihistamã­nicos",
+      "patterns": [
+        "qué es AntihistamÃ­nicos",
+        "describeme AntihistamÃ­nicos",
+        "para qué sirve AntihistamÃ­nicos",
+        "información sobre AntihistamÃ­nicos",
+        "qué hace AntihistamÃ­nicos"
+      ],
+      "responses": [
+        "Medicamentos utilizados para aliviar sÃ­ntomas alÃ©rgicos."
+      ]
+    },
+    {
+      "tag": "efectos_antihistamã­nicos",
+      "patterns": [
+        "efectos secundarios de AntihistamÃ­nicos",
+        "efectos adversos de AntihistamÃ­nicos",
+        "qué efectos tiene AntihistamÃ­nicos",
+        "cuáles son los efectos de AntihistamÃ­nicos",
+        "qué efectos produce AntihistamÃ­nicos"
+      ],
+      "responses": [
+        "Somnolencia, sequedad de boca."
+      ]
+    },
+    {
+      "tag": "faq_antihistamã­nicos",
+      "patterns": [
+        "Â¿CuÃ¡les son los antihistamÃ­nicos mÃ¡s comunes?"
+      ],
+      "responses": [
+        "Los antihistamÃ­nicos mÃ¡s comunes incluyen la cetirizina, loratadina y difenhidramina."
+      ]
+    },
+    {
+      "tag": "faq_antihistamã­nicos",
+      "patterns": [
+        "Â¿Son seguros los antihistamÃ­nicos para los niÃ±os?"
+      ],
+      "responses": [
+        "Algunos antihistamÃ­nicos son seguros para niÃ±os, pero es importante consultar a un mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_antihistamã­nicos",
+      "patterns": [
+        "Â¿CuÃ¡nto antihistamÃ­nico debo tomar?"
+      ],
+      "responses": [
+        "La dosis varÃ­a segÃºn el medicamento; siempre siga las indicaciones de su mÃ©dico."
+      ]
+    },
+    {
+      "tag": "descripcion_descongestionantes",
+      "patterns": [
+        "qué es Descongestionantes",
+        "describeme Descongestionantes",
+        "para qué sirve Descongestionantes",
+        "información sobre Descongestionantes",
+        "qué hace Descongestionantes"
+      ],
+      "responses": [
+        "Medicamentos que ayudan a reducir la congestiÃ³n nasal."
+      ]
+    },
+    {
+      "tag": "efectos_descongestionantes",
+      "patterns": [
+        "efectos secundarios de Descongestionantes",
+        "efectos adversos de Descongestionantes",
+        "qué efectos tiene Descongestionantes",
+        "cuáles son los efectos de Descongestionantes",
+        "qué efectos produce Descongestionantes"
+      ],
+      "responses": [
+        "Insomnio, aumento de la presiÃ³n arterial."
+      ]
+    },
+    {
+      "tag": "faq_descongestionantes",
+      "patterns": [
+        "Â¿QuÃ© descongestionantes son los mÃ¡s efectivos?"
+      ],
+      "responses": [
+        "Los descongestionantes mÃ¡s efectivos incluyen la pseudoefedrina y la fenilefrina."
+      ]
+    },
+    {
+      "tag": "faq_descongestionantes",
+      "patterns": [
+        "Â¿Es seguro usar descongestionantes durante el embarazo?"
+      ],
+      "responses": [
+        "Se recomienda consultar a un mÃ©dico antes de usar descongestionantes durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_descongestionantes",
+      "patterns": [
+        "Â¿CuÃ¡nto descongestionante debo tomar?"
+      ],
+      "responses": [
+        "La dosis varÃ­a segÃºn el medicamento; consulte con su mÃ©dico para determinar la dosis adecuada."
+      ]
+    },
+    {
+      "tag": "descripcion_fluticasona",
+      "patterns": [
+        "qué es Fluticasona",
+        "describeme Fluticasona",
+        "para qué sirve Fluticasona",
+        "información sobre Fluticasona",
+        "qué hace Fluticasona"
+      ],
+      "responses": [
+        "Corticosteroide nasal que ayuda a reducir la inflamaciÃ³n en las vÃ­as respiratorias."
+      ]
+    },
+    {
+      "tag": "efectos_fluticasona",
+      "patterns": [
+        "efectos secundarios de Fluticasona",
+        "efectos adversos de Fluticasona",
+        "qué efectos tiene Fluticasona",
+        "cuáles son los efectos de Fluticasona",
+        "qué efectos produce Fluticasona"
+      ],
+      "responses": [
+        "IrritaciÃ³n nasal, sangrado nasal."
+      ]
+    },
+    {
+      "tag": "faq_fluticasona",
+      "patterns": [
+        "Â¿CÃ³mo se usa la fluticasona?"
+      ],
+      "responses": [
+        "La fluticasona se aplica mediante un aerosol nasal, siguiendo las instrucciones del mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_fluticasona",
+      "patterns": [
+        "Â¿Es segura la fluticasona para los niÃ±os?"
+      ],
+      "responses": [
+        "La fluticasona puede ser segura para los niÃ±os, pero consulte a un pediatra."
+      ]
+    },
+    {
+      "tag": "faq_fluticasona",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la fluticasona?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir irritaciÃ³n y sangrado nasal."
+      ]
+    },
+    {
+      "tag": "descripcion_bromuro de ipratropio",
+      "patterns": [
+        "qué es Bromuro de ipratropio",
+        "describeme Bromuro de ipratropio",
+        "para qué sirve Bromuro de ipratropio",
+        "información sobre Bromuro de ipratropio",
+        "qué hace Bromuro de ipratropio"
+      ],
+      "responses": [
+        "Broncodilatador utilizado para tratar el asma y la EPOC."
+      ]
+    },
+    {
+      "tag": "efectos_bromuro de ipratropio",
+      "patterns": [
+        "efectos secundarios de Bromuro de ipratropio",
+        "efectos adversos de Bromuro de ipratropio",
+        "qué efectos tiene Bromuro de ipratropio",
+        "cuáles son los efectos de Bromuro de ipratropio",
+        "qué efectos produce Bromuro de ipratropio"
+      ],
+      "responses": [
+        "Sequedad bucal, irritaciÃ³n de la garganta."
+      ]
+    },
+    {
+      "tag": "faq_bromuro de ipratropio",
+      "patterns": [
+        "Â¿CÃ³mo se usa el bromuro de ipratropio?"
+      ],
+      "responses": [
+        "Se inhala mediante un nebulizador o inhalador, segÃºn las indicaciones mÃ©dicas."
+      ]
+    },
+    {
+      "tag": "faq_bromuro de ipratropio",
+      "patterns": [
+        "Â¿Es seguro el bromuro de ipratropio durante el embarazo?"
+      ],
+      "responses": [
+        "Se debe consultar a un mÃ©dico antes de usar bromuro de ipratropio durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_bromuro de ipratropio",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del bromuro de ipratropio?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir sequedad bucal y irritaciÃ³n de la garganta."
+      ]
+    },
+    {
+      "tag": "descripcion_teofilina",
+      "patterns": [
+        "qué es Teofilina",
+        "describeme Teofilina",
+        "para qué sirve Teofilina",
+        "información sobre Teofilina",
+        "qué hace Teofilina"
+      ],
+      "responses": [
+        "Broncodilatador utilizado para aliviar los sÃ­ntomas del asma."
+      ]
+    },
+    {
+      "tag": "efectos_teofilina",
+      "patterns": [
+        "efectos secundarios de Teofilina",
+        "efectos adversos de Teofilina",
+        "qué efectos tiene Teofilina",
+        "cuáles son los efectos de Teofilina",
+        "qué efectos produce Teofilina"
+      ],
+      "responses": [
+        "NÃ¡useas, mareos, palpitaciones."
+      ]
+    },
+    {
+      "tag": "faq_teofilina",
+      "patterns": [
+        "Â¿CuÃ¡nto teofilina debo tomar?"
+      ],
+      "responses": [
+        "La dosis de teofilina debe ser determinada por un mÃ©dico segÃºn su condiciÃ³n."
+      ]
+    },
+    {
+      "tag": "faq_teofilina",
+      "patterns": [
+        "Â¿Es segura la teofilina para los niÃ±os?"
+      ],
+      "responses": [
+        "La teofilina puede ser segura para niÃ±os, pero consulte a un pediatra para la dosis adecuada."
+      ]
+    },
+    {
+      "tag": "faq_teofilina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la teofilina?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir nÃ¡useas, mareos y palpitaciones."
+      ]
+    },
+    {
+      "tag": "descripcion_cromoglicato sã³dico",
+      "patterns": [
+        "qué es Cromoglicato sÃ³dico",
+        "describeme Cromoglicato sÃ³dico",
+        "para qué sirve Cromoglicato sÃ³dico",
+        "información sobre Cromoglicato sÃ³dico",
+        "qué hace Cromoglicato sÃ³dico"
+      ],
+      "responses": [
+        "Medicamento utilizado para prevenir sÃ­ntomas de asma y alergias."
+      ]
+    },
+    {
+      "tag": "efectos_cromoglicato sã³dico",
+      "patterns": [
+        "efectos secundarios de Cromoglicato sÃ³dico",
+        "efectos adversos de Cromoglicato sÃ³dico",
+        "qué efectos tiene Cromoglicato sÃ³dico",
+        "cuáles son los efectos de Cromoglicato sÃ³dico",
+        "qué efectos produce Cromoglicato sÃ³dico"
+      ],
+      "responses": [
+        "IrritaciÃ³n de garganta, tos."
+      ]
+    },
+    {
+      "tag": "faq_cromoglicato sã³dico",
+      "patterns": [
+        "Â¿CÃ³mo se usa el cromoglicato sÃ³dico?"
+      ],
+      "responses": [
+        "Se utiliza generalmente en forma de aerosol o soluciÃ³n nasal."
+      ]
+    },
+    {
+      "tag": "faq_cromoglicato sã³dico",
+      "patterns": [
+        "Â¿Es seguro usar cromoglicato sÃ³dico durante el embarazo?"
+      ],
+      "responses": [
+        "Es recomendable consultar a un mÃ©dico antes de usarlo durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_cromoglicato sã³dico",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del cromoglicato sÃ³dico?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir irritaciÃ³n de la garganta y tos."
+      ]
+    },
+    {
+      "tag": "descripcion_montelukast",
+      "patterns": [
+        "qué es Montelukast",
+        "describeme Montelukast",
+        "para qué sirve Montelukast",
+        "información sobre Montelukast",
+        "qué hace Montelukast"
+      ],
+      "responses": [
+        "Medicamento utilizado para prevenir ataques de asma y aliviar sÃ­ntomas de alergias."
+      ]
+    },
+    {
+      "tag": "efectos_montelukast",
+      "patterns": [
+        "efectos secundarios de Montelukast",
+        "efectos adversos de Montelukast",
+        "qué efectos tiene Montelukast",
+        "cuáles son los efectos de Montelukast",
+        "qué efectos produce Montelukast"
+      ],
+      "responses": [
+        "Cefaleas, dolor abdominal."
+      ]
+    },
+    {
+      "tag": "faq_montelukast",
+      "patterns": [
+        "Â¿CÃ³mo se usa el montelukast?"
+      ],
+      "responses": [
+        "Se toma generalmente una vez al dÃ­a, segÃºn las indicaciones del mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_montelukast",
+      "patterns": [
+        "Â¿Es seguro el montelukast para los niÃ±os?"
+      ],
+      "responses": [
+        "El montelukast puede ser seguro para niÃ±os, pero consulte a un pediatra."
+      ]
+    },
+    {
+      "tag": "faq_montelukast",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del montelukast?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir cefaleas y dolor abdominal."
+      ]
+    },
+    {
+      "tag": "descripcion_dexametasona",
+      "patterns": [
+        "qué es Dexametasona",
+        "describeme Dexametasona",
+        "para qué sirve Dexametasona",
+        "información sobre Dexametasona",
+        "qué hace Dexametasona"
+      ],
+      "responses": [
+        "Corticosteroide utilizado para tratar diversas afecciones inflamatorias."
+      ]
+    },
+    {
+      "tag": "efectos_dexametasona",
+      "patterns": [
+        "efectos secundarios de Dexametasona",
+        "efectos adversos de Dexametasona",
+        "qué efectos tiene Dexametasona",
+        "cuáles son los efectos de Dexametasona",
+        "qué efectos produce Dexametasona"
+      ],
+      "responses": [
+        "Aumento de peso, cambios de humor."
+      ]
+    },
+    {
+      "tag": "faq_dexametasona",
+      "patterns": [
+        "Â¿CÃ³mo se usa la dexametasona?"
+      ],
+      "responses": [
+        "La dexametasona se toma generalmente en forma de tabletas o inyecciones, segÃºn indicaciÃ³n mÃ©dica."
+      ]
+    },
+    {
+      "tag": "faq_dexametasona",
+      "patterns": [
+        "Â¿Es segura la dexametasona durante el embarazo?"
+      ],
+      "responses": [
+        "Es importante consultar a un mÃ©dico antes de usar dexametasona durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_dexametasona",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la dexametasona?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir aumento de peso y cambios de humor."
+      ]
+    },
+    {
+      "tag": "descripcion_budesonida",
+      "patterns": [
+        "qué es Budesonida",
+        "describeme Budesonida",
+        "para qué sirve Budesonida",
+        "información sobre Budesonida",
+        "qué hace Budesonida"
+      ],
+      "responses": [
+        "Corticosteroide utilizado para tratar el asma y la EPOC."
+      ]
+    },
+    {
+      "tag": "efectos_budesonida",
+      "patterns": [
+        "efectos secundarios de Budesonida",
+        "efectos adversos de Budesonida",
+        "qué efectos tiene Budesonida",
+        "cuáles son los efectos de Budesonida",
+        "qué efectos produce Budesonida"
+      ],
+      "responses": [
+        "IrritaciÃ³n de la garganta, candidiasis oral."
+      ]
+    },
+    {
+      "tag": "faq_budesonida",
+      "patterns": [
+        "Â¿CÃ³mo se usa la budesonida?"
+      ],
+      "responses": [
+        "Se inhala mediante un aerosol, siguiendo las instrucciones del mÃ©dico."
+      ]
+    },
+    {
+      "tag": "faq_budesonida",
+      "patterns": [
+        "Â¿Es segura la budesonida para los niÃ±os?"
+      ],
+      "responses": [
+        "La budesonida puede ser segura para los niÃ±os, pero consulte a un pediatra."
+      ]
+    },
+    {
+      "tag": "faq_budesonida",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la budesonida?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir irritaciÃ³n de la garganta y candidiasis oral."
+      ]
+    },
+    {
+      "tag": "descripcion_salbutamol",
+      "patterns": [
+        "qué es Salbutamol",
+        "describeme Salbutamol",
+        "para qué sirve Salbutamol",
+        "información sobre Salbutamol",
+        "qué hace Salbutamol"
+      ],
+      "responses": [
+        "Broncodilatador utilizado para aliviar sÃ­ntomas de asma y EPOC."
+      ]
+    },
+    {
+      "tag": "efectos_salbutamol",
+      "patterns": [
+        "efectos secundarios de Salbutamol",
+        "efectos adversos de Salbutamol",
+        "qué efectos tiene Salbutamol",
+        "cuáles son los efectos de Salbutamol",
+        "qué efectos produce Salbutamol"
+      ],
+      "responses": [
+        "Temblor, palpitaciones."
+      ]
+    },
+    {
+      "tag": "faq_salbutamol",
+      "patterns": [
+        "Â¿CÃ³mo se usa el salbutamol?"
+      ],
+      "responses": [
+        "Se utiliza mediante un inhalador o nebulizador, segÃºn las indicaciones mÃ©dicas."
+      ]
+    },
+    {
+      "tag": "faq_salbutamol",
+      "patterns": [
+        "Â¿Es seguro el salbutamol durante el embarazo?"
+      ],
+      "responses": [
+        "Se recomienda consultar a un mÃ©dico antes de usar salbutamol durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_salbutamol",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios del salbutamol?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir temblor y palpitaciones."
+      ]
+    },
+    {
+      "tag": "descripcion_mometasona",
+      "patterns": [
+        "qué es Mometasona",
+        "describeme Mometasona",
+        "para qué sirve Mometasona",
+        "información sobre Mometasona",
+        "qué hace Mometasona"
+      ],
+      "responses": [
+        "Corticosteroide nasal que ayuda a reducir la inflamaciÃ³n nasal."
+      ]
+    },
+    {
+      "tag": "efectos_mometasona",
+      "patterns": [
+        "efectos secundarios de Mometasona",
+        "efectos adversos de Mometasona",
+        "qué efectos tiene Mometasona",
+        "cuáles son los efectos de Mometasona",
+        "qué efectos produce Mometasona"
+      ],
+      "responses": [
+        "IrritaciÃ³n nasal, sangrado nasal."
+      ]
+    },
+    {
+      "tag": "faq_mometasona",
+      "patterns": [
+        "Â¿CÃ³mo se usa la mometasona?"
+      ],
+      "responses": [
+        "Se aplica en forma de aerosol nasal segÃºn las indicaciones mÃ©dicas."
+      ]
+    },
+    {
+      "tag": "faq_mometasona",
+      "patterns": [
+        "Â¿Es segura la mometasona para los niÃ±os?"
+      ],
+      "responses": [
+        "La mometasona puede ser segura para los niÃ±os, pero consulte a un pediatra."
+      ]
+    },
+    {
+      "tag": "faq_mometasona",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la mometasona?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir irritaciÃ³n y sangrado nasal."
+      ]
+    },
+    {
+      "tag": "descripcion_loratadina",
+      "patterns": [
+        "qué es Loratadina",
+        "describeme Loratadina",
+        "para qué sirve Loratadina",
+        "información sobre Loratadina",
+        "qué hace Loratadina"
+      ],
+      "responses": [
+        "AntihistamÃ­nico utilizado para aliviar sÃ­ntomas alÃ©rgicos."
+      ]
+    },
+    {
+      "tag": "efectos_loratadina",
+      "patterns": [
+        "efectos secundarios de Loratadina",
+        "efectos adversos de Loratadina",
+        "qué efectos tiene Loratadina",
+        "cuáles son los efectos de Loratadina",
+        "qué efectos produce Loratadina"
+      ],
+      "responses": [
+        "Somnolencia, sequedad de boca."
+      ]
+    },
+    {
+      "tag": "faq_loratadina",
+      "patterns": [
+        "Â¿CÃ³mo se usa la loratadina?"
+      ],
+      "responses": [
+        "La loratadina se toma por vÃ­a oral, generalmente una vez al dÃ­a, con o sin alimentos."
+      ]
+    },
+    {
+      "tag": "faq_loratadina",
+      "patterns": [
+        "Â¿Es segura la loratadina para los niÃ±os?"
+      ],
+      "responses": [
+        "La loratadina es generalmente segura para niÃ±os mayores de 2 aÃ±os; consulte a un pediatra para la dosis adecuada."
+      ]
+    },
+    {
+      "tag": "faq_loratadina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la loratadina?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir somnolencia y sequedad de boca."
+      ]
+    },
+    {
+      "tag": "descripcion_desloratadina",
+      "patterns": [
+        "qué es Desloratadina",
+        "describeme Desloratadina",
+        "para qué sirve Desloratadina",
+        "información sobre Desloratadina",
+        "qué hace Desloratadina"
+      ],
+      "responses": [
+        "AntihistamÃ­nico utilizado para tratar alergias y rinitis alÃ©rgica."
+      ]
+    },
+    {
+      "tag": "efectos_desloratadina",
+      "patterns": [
+        "efectos secundarios de Desloratadina",
+        "efectos adversos de Desloratadina",
+        "qué efectos tiene Desloratadina",
+        "cuáles son los efectos de Desloratadina",
+        "qué efectos produce Desloratadina"
+      ],
+      "responses": [
+        "Somnolencia, sequedad de boca."
+      ]
+    },
+    {
+      "tag": "faq_desloratadina",
+      "patterns": [
+        "Â¿CuÃ¡nto desloratadina debo tomar?"
+      ],
+      "responses": [
+        "La dosis recomendada de desloratadina para adultos es de 5 mg una vez al dÃ­a."
+      ]
+    },
+    {
+      "tag": "faq_desloratadina",
+      "patterns": [
+        "Â¿Es segura la desloratadina durante el embarazo?"
+      ],
+      "responses": [
+        "Se debe consultar a un mÃ©dico antes de usar desloratadina durante el embarazo."
+      ]
+    },
+    {
+      "tag": "faq_desloratadina",
+      "patterns": [
+        "Â¿CuÃ¡les son los efectos secundarios de la desloratadina?"
+      ],
+      "responses": [
+        "Los efectos secundarios pueden incluir somnolencia y sequedad de boca."
+      ]
+    }
+  ]
+}
