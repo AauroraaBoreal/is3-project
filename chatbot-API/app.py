@@ -10,7 +10,7 @@ import pickle
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import unidecode
 import re
 
@@ -137,18 +137,28 @@ class MedicamentosChatbot:
 
 
 # Crear el endpoint de la API
+# 
+@app.route('/')
+def home():
+    return "Welcome to the API!"
+# 
 @app.route('/chatbot', methods=['POST'])
 def chatbot_response():
     chatbot = MedicamentosChatbot()
     data = request.get_json()
-    user_message = data.get("inputCode")  # Cambia esto si el nombre del campo es diferente
+    print(data)  # Print incoming data to check if it's being received correctly
 
+    user_message = data.get("inputCode")  # Cambia esto si el nombre del campo es diferente
     if user_message is None:
         return jsonify({"error": "No message provided."}), 400
 
     response = chatbot.get_response(user_message)
 
-    return Response(json.dumps(response, ensure_ascii=False), content_type='application/json; charset=utf-8')
+    # Print the generated response for debugging
+    print(f"Generated response: {response}")
 
+    # Ensure the response is in a proper format
+    return Response(json.dumps(response, ensure_ascii=False), content_type='application/json; charset=utf-8')
+    
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5001)
