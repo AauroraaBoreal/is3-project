@@ -1,0 +1,195 @@
+{
+    "medicamentos": [
+      {
+        "nombre": "Amantadina",
+        "descripcion": "La Amantadina es un antiviral específicamente utilizado para prevenir o tratar la influenza A. Aunque su uso actual es limitado debido a la resistencia de las cepas modernas del virus, sigue siendo una opción en casos específicos y también se usa en el tratamiento de síntomas del Parkinson.",
+        "usos": [
+          "Prevención de influenza A",
+          "Tratamiento de influenza A",
+          "Manejo de síntomas del Parkinson",
+          "Control de efectos secundarios de medicamentos"
+        ],
+        "dosisComun": "La dosis típica es de 100mg dos veces al día para adultos, ajustable según la condición y respuesta del paciente.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Mareos",
+            "Insomnio",
+            "Sequedad bucal",
+            "Náuseas leves",
+            "Dolor de cabeza"
+          ],
+          "graves": [
+            "Alucinaciones",
+            "Confusión",
+            "Problemas de coordinación",
+            "Hinchazón de tobillos o pies"
+          ]
+        },
+        "contraindicaciones": [
+          "Insuficiencia renal grave",
+          "Epilepsia no controlada",
+          "Embarazo y lactancia (evaluar riesgo-beneficio)",
+          "Hipersensibilidad al medicamento"
+        ],
+        "interacciones": [
+          "Anticolinérgicos",
+          "Estimulantes del sistema nervioso central",
+          "Alcohol"
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Es la amantadina efectiva contra todas las cepas de la gripe?",
+            "respuesta": "No, su efectividad ha disminuido significativamente debido a la resistencia desarrollada por las cepas actuales del virus de la influenza A. Por esta razón, su uso como antiviral es más limitado en la actualidad, aunque sigue siendo útil en casos específicos y para otras condiciones como el Parkinson."
+          },
+          {
+            "pregunta": "¿Qué efectos secundarios puede causar la amantadina?",
+            "respuesta": "Los efectos secundarios más comunes incluyen mareos, insomnio, sequedad bucal y náuseas leves. En casos más graves, pueden presentarse alucinaciones, confusión o problemas de coordinación. Es importante reportar cualquier efecto secundario inusual a tu médico."
+          },
+          {
+            "pregunta": "¿Cuánto tiempo debo tomar amantadina para la prevención de la gripe?",
+            "respuesta": "La duración típica del tratamiento preventivo es durante la temporada de gripe o según el riesgo de exposición. Sin embargo, la duración específica debe ser determinada por tu médico basándose en factores individuales y la situación epidemiológica actual."
+          }
+        ],
+        "recomendaciones": [
+          "Tomar con o sin alimentos",
+          "Mantener un horario regular de dosificación",
+          "No interrumpir el tratamiento sin consulta médica",
+          "Evitar actividades que requieran alta concentración hasta conocer cómo te afecta"
+        ]
+      },
+      {
+        "nombre": "Paracetamol",
+        "descripcion": "El Paracetamol (acetaminofén) es un analgésico y antipirético ampliamente utilizado para el tratamiento del dolor leve a moderado y la fiebre. Es uno de los medicamentos más seguros en su categoría cuando se usa correctamente.",
+        "usos": [
+          "Alivio del dolor leve a moderado",
+          "Reducción de la fiebre",
+          "Tratamiento de síntomas gripales",
+          "Manejo de dolor de cabeza",
+          "Alivio de dolores musculares"
+        ],
+        "dosisComun": "Adultos: 500-1000mg cada 4-6 horas, sin exceder 4000mg por día. Niños: según peso y edad, consultar al pediatra.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Náuseas leves",
+            "Malestar estomacal"
+          ],
+          "graves": [
+            "Daño hepático (en sobredosis)",
+            "Reacciones alérgicas",
+            "Problemas de coagulación",
+            "Erupciones cutáneas graves"
+          ]
+        },
+        "contraindicaciones": [
+          "Enfermedad hepática grave",
+          "Alcoholismo crónico",
+          "Hipersensibilidad al paracetamol"
+        ],
+        "interacciones": [
+          "Alcohol",
+          "Warfarina",
+          "Medicamentos que afectan al hígado"
+        ],
+        "faq": [
+          {
+            "pregunta": "¿El paracetamol puede bajar la fiebre causada por la gripe?",
+            "respuesta": "Sí, el paracetamol es muy efectivo para reducir la fiebre y aliviar los dolores asociados con la gripe. Comienza a hacer efecto en aproximadamente 30 minutos y su efecto puede durar hasta 6 horas."
+          },
+          {
+            "pregunta": "¿Puedo combinar paracetamol con otros medicamentos para la gripe?",
+            "respuesta": "Aunque el paracetamol puede combinarse con algunos medicamentos, es crucial consultar a un profesional de la salud antes de hacerlo. Muchos medicamentos para la gripe ya contienen paracetamol, por lo que podrías estar tomando una sobredosis sin saberlo."
+          },
+          {
+            "pregunta": "¿Cuánto tiempo tarda en hacer efecto el paracetamol?",
+            "respuesta": "El paracetamol generalmente comienza a hacer efecto en 30 minutos a 1 hora. El efecto máximo se alcanza típicamente entre 1-2 horas después de la toma, y puede durar hasta 6 horas."
+          }
+        ],
+        "recomendaciones": [
+          "No exceder la dosis máxima diaria",
+          "Evitar el consumo de alcohol",
+          "Tomar con el estómago lleno si causa molestias",
+          "Mantener un registro de las dosis tomadas"
+        ]
+      },
+      {
+        "nombre": "Ibuprofeno",
+        "descripcion": "El Ibuprofeno es un antiinflamatorio no esteroideo (AINE) que combina propiedades analgésicas, antiinflamatorias y antipiréticas. Es efectivo para diversos tipos de dolor e inflamación.",
+        "usos": [
+          "Dolor muscular y articular",
+          "Dolor menstrual",
+          "Dolor de cabeza",
+          "Fiebre",
+          "Inflamación"
+        ],
+        "dosisComun": "Adultos: 200-400mg cada 4-6 horas según necesidad, sin exceder 2400mg por día.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Malestar estomacal",
+            "Náuseas",
+            "Mareos",
+            "Acidez"
+          ],
+          "graves": [
+            "Úlceras gástricas",
+            "Sangrado digestivo",
+            "Problemas renales",
+            "Reacciones alérgicas"
+          ]
+        },
+        "contraindicaciones": [
+          "Úlcera péptica activa",
+          "Enfermedad renal grave",
+          "Último trimestre del embarazo",
+          "Antecedentes de reacción alérgica a AINEs"
+        ],
+        "interacciones": [
+          "Aspirina",
+          "Anticoagulantes",
+          "Antihipertensivos",
+          "Diuréticos"
+        ],
+        "faq": [
+          {
+            "pregunta": "¿El ibuprofeno es seguro para tratar los síntomas de la gripe?",
+            "respuesta": "Sí, el ibuprofeno es seguro y efectivo para tratar los síntomas de la gripe cuando se usa según las indicaciones. Ayuda a reducir la fiebre y aliviar el dolor corporal asociado. Sin embargo, debe tomarse con alimentos y no exceder la dosis recomendada."
+          },
+          {
+            "pregunta": "¿Cuáles son los efectos secundarios del uso prolongado de ibuprofeno?",
+            "respuesta": "El uso prolongado puede causar problemas gastrointestinales como úlceras y sangrado, además de posibles efectos sobre los riñones y el sistema cardiovascular. Es importante usar la menor dosis efectiva durante el menor tiempo posible."
+          },
+          {
+            "pregunta": "¿Puedo alternar ibuprofeno con paracetamol?",
+            "respuesta": "Sí, se pueden alternar bajo supervisión médica. Esta combinación puede ser más efectiva para el control del dolor y la fiebre, pero es crucial seguir las instrucciones específicas sobre el tiempo entre dosis y las cantidades."
+          }
+        ],
+        "recomendaciones": [
+          "Tomar con alimentos",
+          "Mantener hidratación adecuada",
+          "No usar por períodos prolongados sin supervisión médica",
+          "Evitar si hay problemas gástricos"
+        ]
+      }
+    ],
+    "respuestasGenerales": {
+      "saludos": [
+        "¡Hola! Soy tu asistente virtual especializado en información sobre medicamentos. ¿En qué puedo ayudarte?",
+        "¡Bienvenido! Estoy aquí para resolver tus dudas sobre medicamentos. ¿Qué necesitas saber?",
+        "¡Hola! Puedo proporcionarte información sobre medicamentos. ¿Qué te gustaría saber?"
+      ],
+      "despedidas": [
+        "¡Hasta luego! Recuerda consultar siempre a tu médico para decisiones sobre medicamentos.",
+        "¡Cuídate mucho! Estoy aquí si necesitas más información en el futuro.",
+        "¡Que tengas un excelente día! Recuerda usar los medicamentos según las indicaciones médicas."
+      ],
+      "noEntiendo": [
+        "Lo siento, no he entendido tu pregunta. ¿Podrías reformularla de otra manera?",
+        "Disculpa, no estoy seguro de lo que preguntas. ¿Podrías ser más específico?",
+        "No he podido comprender tu consulta. ¿Podrías explicarla de otra forma?"
+      ],
+      "advertencias": [
+        "Recuerda que esta información es solo de referencia. Siempre consulta a un profesional de la salud.",
+        "La información proporcionada no reemplaza la consulta médica profesional.",
+        "Es importante seguir las indicaciones de tu médico tratante."
+      ]
+    }
+  }

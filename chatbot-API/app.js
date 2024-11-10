@@ -1,5 +1,5 @@
 async function sendMessageToChatbot(message) {
-    const response = await fetch('http://localhost:5000/chatbot', {
+    const response = await fetch('http://127.0.0.1:5001/chatbot', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
