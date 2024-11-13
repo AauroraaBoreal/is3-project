@@ -1,16 +1,17 @@
 import React from "react";
+import ImgRegistro from './Imagenes/imgRegistro.jpg'
 
-export default function Formularioregistro(){
+export default function Formularioregistro({onVolverLogin}){
     return(
-        <div className="container">
+        <div className="registro-container">
             <div class="left-section">
                 <h1>Registro de Usuarios</h1>
-                <img src="imgRegistro.jpg" alt="doctores" class="form-image" />
+                <img src={ImgRegistro} alt="doctores" class="form-image" />
 
             </div>
             <div class="right-section">
                 <h2>¡Empezar a usar ChatHealth!</h2>
-                <form action="registro.php" method="POST" id="registrationForm">
+                <form id="registrationForm" className="Formulario-Registro">
                     <label for="nombres">Nombres:</label>
                     <input type="text" id="nombres" name="nombres" required />
 
@@ -36,7 +37,7 @@ export default function Formularioregistro(){
 
                     <div class="checkbox-label">
                         <input type="checkbox" id="terminos" name="terminos"/>
-                        <label for="terminos">Acepto los <a href="#" >términos y condiciones</a>.</label>
+                        <label for="terminos">Acepto los <a  >términos y condiciones</a>.</label>
                     </div>
                 
                     <div class="checkbox-label">
@@ -45,6 +46,7 @@ export default function Formularioregistro(){
                     </div>
                 
                     <div class="checkbox-label">
+                        <input type="checkbox" id="tratamiento" name="tratamiento"/>
                         <label htmlFor="terceros">Consentimiento para compartir datos con terceros.</label>
                     </div>
 
@@ -52,7 +54,10 @@ export default function Formularioregistro(){
                 </form>
 
                 <div class="signup">
-                    <p>¿Ya tienes una cuenta? <a href="login.html">Iniciar sesión</a></p>
+                    <p>¿Ya tienes una cuenta? <a  onClick={(e) => {
+                        e.preventDefault();
+                        onVolverLogin();
+                    }}>Iniciar sesión</a></p>
                 </div>
             </div>
         </div>

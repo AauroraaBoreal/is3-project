@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import BarraLateral from './Componentes/barralateral';
-import Cabecera from './Componentes/cabecera';
-import Conversacion from './Componentes/conversacion';
-import Enviarmensaje from './Componentes/enviar_mensaje';
-import Login from '../Login/login';
+import BarraLateral from './Componentes/Chatbot/barralateral';
+import Cabecera from './Componentes/Chatbot/cabecera';
+import Conversacion from './Componentes/Chatbot/conversacion';
+import Enviarmensaje from './Componentes/Chatbot/enviar_mensaje';
+import Login from './Componentes/Login/login';
 
 function App() {
   const [mostrarLogin, setMostrarLogin] = useState(false);
