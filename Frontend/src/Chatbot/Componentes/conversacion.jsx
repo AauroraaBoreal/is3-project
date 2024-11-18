@@ -8,7 +8,11 @@ function Conversacion({ messages }) {
           key={index}
           className={msg.type === 'user' ? 'mensaje-usuario' : 'mensaje-bot'}
         >
-          <p>{msg.text}</p>
+          <p>
+            {typeof msg.text === "string"
+              ? msg.text
+              : JSON.stringify(msg.text)} {/* Safely render non-string objects */}
+          </p>
         </div>
       ))}
     </div>

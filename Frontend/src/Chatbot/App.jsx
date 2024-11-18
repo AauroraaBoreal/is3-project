@@ -13,36 +13,17 @@ function App() {
   const manejarMostrarLogin = () => {
     setMostrarLogin(true);
   };
-
-  // const handleSendMessage = (userMessage) => {
-  //   if (userMessage.trim() !== "") {
-  //     // Agregar mensaje del usuario
-  //     setMessages((prevMessages) => [
-  //       ...prevMessages,
-  //       { type: 'user', text: userMessage }
-  //     ]);
-
-  //     // Simular respuesta del bot
-  //     setTimeout(() => {
-  //       setMessages((prevMessages) => [
-  //         ...prevMessages,
-  //         { type: 'bot', text: "Hola, ¿en qué puedo ayudarte?" }
-  //       ]);
-  //     }, 1000);
-  //   }
-  // };
-  // 
-  // 
   const handleSendMessage = async (userMessage) => {
     if (userMessage.trim() !== "") {
-      // Add user message to chat
       setMessages((prevMessages) => [
         ...prevMessages,
         { type: 'user', text: userMessage }
       ]);
   
+      // Track if the last message was an upload type
+      const isUploadMessage = userMessage.startsWith("Uploaded file:");
+  
       try {
-        // Send the message to the chatbot API
         const response = await fetch('http://127.0.0.1:5001/chatbot', {
           method: 'POST',
           headers: {
@@ -52,16 +33,31 @@ function App() {
         });
   
         const data = await response.json();
+        console.log("API Response:", data); // Debug log for API response
   
-        // Log the received data to ensure it's correct
-        console.log('Received from API:', data);
+        // Ensure the response is a string before rendering
+        if (data.response && typeof data.response === "string") {
+          setMessages((prevMessages) => {
+            // Check if the last message was an upload type and if we should skip responses
+            if (isUploadMessage) {
+              const uploadMessageCount = prevMessages.filter(
+                (msg) => msg.type === 'bot' && msg.isUploadResponse
+              ).length;
   
-        // Add chatbot response to chat
-        setMessages((prevMessages) => {
-          console.log("Updating messages:", [...prevMessages, { type: 'bot', text: data }]);
-          return [...prevMessages, { type: 'bot', text: data }];
-        });
+              // Skip the first two bot responses after upload
+              if (uploadMessageCount < 1) {
+                return prevMessages; // Do not add this message
+              }
+            }
   
+            return [
+              ...prevMessages,
+              { type: 'bot', text: data.response, isUploadResponse: isUploadMessage }
+            ];
+          });
+        } else {
+          console.warn("Invalid response format from API:", data);
+        }
       } catch (error) {
         console.error("Error fetching chatbot response:", error);
         setMessages((prevMessages) => [
