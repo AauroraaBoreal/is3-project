@@ -168,7 +168,293 @@
           "No usar por períodos prolongados sin supervisión médica",
           "Evitar si hay problemas gástricos"
         ]
-      }
+      },
+      {
+        "nombre": "Oseltamivir",
+        "descripcion": "Oseltamivir es un antiviral que inhibe la neuraminidasa, una enzima esencial para la replicación del virus de la influenza. Se utiliza principalmente para el tratamiento y la prevención de la gripe.",
+        "usos": [
+          "Tratamiento de la influenza A y B en adultos y niños.",
+          "Profilaxis de la influenza en individuos expuestos al virus.",
+          "Reducción de la duración y severidad de los síntomas gripales.",
+          "Prevención de complicaciones asociadas a la influenza."
+        ],
+        "dosisComun": "75 mg por vía oral dos veces al día durante 5 días para adultos. En niños, la dosis varía según el peso y la edad.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Náuseas",
+            "Vómitos",
+            "Dolor de cabeza",
+            "Fatiga",
+            "Diarrea"
+          ],
+          "graves": [
+            "Reacciones alérgicas severas",
+            "Erupciones cutáneas",
+            "Convulsiones",
+            "Alteraciones del comportamiento"
+          ]
+        },
+        "contraindicaciones": [
+          "Hipersensibilidad al oseltamivir o a alguno de sus componentes.",
+          "Insuficiencia renal severa sin ajuste de dosis adecuado.",
+          "Pacientes con enfermedades hereditarias raras de intolerancia a la fructosa."
+        ],
+        "interacciones": [
+          "Vacuna intranasal de virus vivos atenuados contra la influenza.",
+          "Probenecid puede aumentar los niveles plasmáticos de oseltamivir.",
+          "Medicamentos que afectan la función renal pueden alterar la eliminación de oseltamivir."
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Oseltamivir cura la gripe?",
+            "respuesta": "Oseltamivir no cura la gripe, pero puede reducir la duración y severidad de los síntomas si se inicia dentro de las primeras 48 horas desde el inicio de los síntomas."
+          },
+          {
+            "pregunta": "¿Pueden los niños tomar oseltamivir?",
+            "respuesta": "Sí, oseltamivir está aprobado para su uso en niños a partir de las 2 semanas de edad para el tratamiento de la influenza."
+          },
+          {
+            "pregunta": "¿Es seguro tomar oseltamivir durante el embarazo?",
+            "respuesta": "Los estudios en animales no han mostrado efectos teratogénicos, pero se debe evaluar el riesgo-beneficio antes de su uso en mujeres embarazadas."
+          }
+        ],
+        "recomendaciones": [
+          "Iniciar el tratamiento lo antes posible tras la aparición de los síntomas.",
+          "Tomar el medicamento con alimentos para reducir las náuseas.",
+          "Completar el curso completo del tratamiento, incluso si los síntomas mejoran antes.",
+          "Consultar al médico antes de usar en caso de embarazo o lactancia."
+        ]
+      },
+      {
+        "nombre": "Zanamivir",
+        "descripcion": "Zanamivir es un antiviral que inhibe la neuraminidasa, utilizado para el tratamiento y prevención de la influenza A y B. Se administra por inhalación oral.",
+        "usos": [
+          "Tratamiento de la influenza A y B en adultos y niños mayores de 7 años.",
+          "Profilaxis de la influenza en individuos expuestos al virus.",
+          "Reducción de la duración y severidad de los síntomas gripales.",
+          "Prevención de complicaciones asociadas a la influenza."
+        ],
+        "dosisComun": "Dos inhalaciones (10 mg) dos veces al día durante 5 días para el tratamiento. Para profilaxis, dos inhalaciones una vez al día durante 10 días.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Dolor de cabeza",
+            "Diarrea",
+            "Náuseas",
+            "Tos",
+            "Irritación de garganta"
+          ],
+          "graves": [
+            "Broncoespasmo",
+            "Reacciones alérgicas severas",
+            "Erupciones cutáneas",
+            "Angioedema"
+          ]
+        },
+        "contraindicaciones": [
+          "Hipersensibilidad al zanamivir o a alguno de sus componentes.",
+          "Pacientes con enfermedades respiratorias crónicas como asma o EPOC.",
+          "Uso en niños menores de 7 años para tratamiento y menores de 5 años para profilaxis."
+        ],
+        "interacciones": [
+          "Vacuna intranasal de virus vivos atenuados contra la influenza.",
+          "No se han reportado interacciones significativas con otros medicamentos."
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Cómo se administra zanamivir?",
+            "respuesta": "Zanamivir se administra mediante inhalación oral utilizando un dispositivo específico llamado Diskhaler."
+          },
+          {
+            "pregunta": "¿Pueden los pacientes asmáticos usar zanamivir?",
+            "respuesta": "No se recomienda el uso de zanamivir en pacientes con asma o enfermedades respiratorias crónicas debido al riesgo de broncoespasmo."
+          },
+          {
+            "pregunta": "¿Zanamivir puede usarse para prevenir la gripe?",
+            "respuesta": "Sí, zanamivir está aprobado para la profilaxis de la influenza en individuos mayores de 5 años que han estado expuestos al virus."
+          }
+        ],
+        "recomendaciones": [
+          "Iniciar el tratamiento lo antes posible tras la aparición de los síntomas.",
+          "No utilizar en pacientes con enfermedades respiratorias crónicas.",
+          "Seguir las instrucciones del dispositivo Diskhaler para una administración correcta.",
+          "Consultar al médico antes de usar en caso de embarazo o lactancia."
+        ]
+      },
+      {
+        "nombre": "Aspirina",
+        "descripcion": "La aspirina es un antiinflamatorio no esteroideo (AINE) con propiedades analgésicas, antipiréticas y antiinflamatorias. También inhibe la agregación plaquetaria, lo que la hace útil en la prevención de eventos cardiovasculares.",
+        "usos": [
+          "Alivio del dolor leve a moderado.",
+          "Reducción de la fiebre.",
+          "Tratamiento de enfermedades inflamatorias como artritis.",
+          "Prevención de eventos cardiovasculares como infartos de miocardio y accidentes cerebrovasculares."
+        ],
+        "dosisComun": "Para el dolor y la fiebre: 325-650 mg cada 4-6 horas según sea necesario. Para la prevención cardiovascular: 81-325 mg una vez al día.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Irritación gástrica",
+            "Náuseas",
+            "Acidez estomacal",
+            "Dolor abdominal",
+            "Hemorragias menores"
+          ],
+          "graves": [
+            "Sangrado gastrointestinal severo",
+            "Síndrome de Reye (en niños y adolescentes)",
+            "Reacciones alérgicas severas",
+            "Úlceras gástricas",
+            "Tinnitus o pérdida auditiva"
+          ]
+        },
+        "contraindicaciones": [
+          "Alergia al ácido acetilsalicílico u otros AINEs.",
+          "Historia de úlceras gástricas o sangrado gastrointestinal.",
+          "Niños menores de 12 años con infecciones virales debido al riesgo de síndrome de Reye.",
+          "Pacientes con trastornos hemorrágicos.",
+          "Último trimestre del embarazo."
+        ],
+        "interacciones": [
+          "Anticoagulantes como warfarina: aumenta el riesgo de sangrado.",
+          "Corticosteroides: incrementa el riesgo de hemorragia gastrointestinal.",
+          "Medicamentos antihipertensivos: puede reducir su eficacia.",
+          "Alcohol: aumenta el riesgo de irritación gástrica."
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Qué es el síndrome de Reye y cómo se relaciona con la aspirina?",
+            "respuesta": "El síndrome de Reye es una enfermedad rara pero grave que afecta al cerebro y el hígado, asociada al uso de aspirina en niños y adolescentes con infecciones virales."
+          },
+          {
+            "pregunta": "¿Es segura la aspirina durante el embarazo?",
+            "respuesta": "La aspirina no se recomienda en el último trimestre del embarazo debido al riesgo de complicaciones para la madre y el bebé."
+          },
+          {
+            "pregunta": "¿Puedo tomar aspirina si tengo gastritis?",
+            "respuesta": "No se recomienda tomar aspirina en casos de gastritis debido a su efecto irritante en la mucosa gástrica. Consulte a su médico."
+          }
+        ],
+        "recomendaciones": [
+          "Tomar la aspirina con alimentos o leche para reducir la irritación estomacal.",
+          "No administrar a niños o adolescentes con infecciones virales.",
+          "Consultar al médico antes de iniciar aspirina para prevención cardiovascular.",
+          "Evitar el consumo de alcohol durante el tratamiento."
+        ]
+      },
+      {
+        "nombre": "Fenilefrina",
+        "descripcion": "La fenilefrina es un descongestionante que actúa como agonista alfa-adrenérgico, causando vasoconstricción en las vías respiratorias superiores.",
+        "usos": [
+          "Alivio de la congestión nasal asociada a resfriados y alergias.",
+          "Reducción de la hinchazón en las membranas nasales.",
+          "Tratamiento del hipotensión asociada a anestesia en contextos hospitalarios.",
+          "Alivio de la congestión de los senos paranasales."
+        ],
+        "dosisComun": "10 mg por vía oral cada 4 horas según sea necesario, sin exceder los 60 mg en 24 horas.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Dolor de cabeza",
+            "Nerviosismo",
+            "Insomnio",
+            "Sequedad en la boca",
+            "Náuseas"
+          ],
+          "graves": [
+            "Hipertensión severa",
+            "Arritmias cardíacas",
+            "Reacciones alérgicas",
+            "Dolor en el pecho"
+          ]
+        },
+        "contraindicaciones": [
+          "Hipertensión severa o no controlada.",
+          "Enfermedad arterial coronaria significativa.",
+          "Uso concomitante con inhibidores de la MAO.",
+          "Glaucoma de ángulo cerrado."
+        ],
+        "interacciones": [
+          "Inhibidores de la MAO: riesgo de hipertensión severa.",
+          "Antidepresivos tricíclicos: potencian los efectos de la fenilefrina.",
+          "Beta-bloqueadores: reducen la eficacia del medicamento.",
+          "Cafeína: puede aumentar el nerviosismo y la irritabilidad."
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Es seguro usar fenilefrina si tengo presión arterial alta?",
+            "respuesta": "No se recomienda el uso de fenilefrina en personas con hipertensión no controlada. Consulte a su médico."
+          },
+          {
+            "pregunta": "¿Cuánto tiempo puedo usar fenilefrina para congestión nasal?",
+            "respuesta": "No se recomienda su uso por más de 7 días consecutivos para evitar el efecto rebote."
+          },
+          {
+            "pregunta": "¿Fenilefrina puede causar insomnio?",
+            "respuesta": "Sí, uno de los efectos secundarios comunes es el insomnio, especialmente si se toma cerca de la hora de dormir."
+          }
+        ],
+        "recomendaciones": [
+          "Usar solo según las indicaciones y no exceder la dosis recomendada.",
+          "No utilizar durante más de 7 días sin consultar a un médico.",
+          "Evitar su uso en combinación con cafeína u otros estimulantes.",
+          "Consultar al médico antes de usar si tiene enfermedades cardiovasculares."
+        ]
+      },
+      {
+        "nombre": "Bromhexina",
+        "descripcion": "La bromhexina es un agente mucolítico que ayuda a disolver y expulsar el moco de las vías respiratorias al aumentar su fluidez.",
+        "usos": [
+          "Tratamiento de enfermedades respiratorias con exceso de moco, como bronquitis crónica.",
+          "Alivio de la congestión en enfermedades pulmonares obstructivas crónicas (EPOC).",
+          "Adyuvante en el tratamiento de neumonías para facilitar la expectoración.",
+          "Alivio de los síntomas de la tos productiva."
+        ],
+        "dosisComun": "8-16 mg por vía oral tres veces al día para adultos. En niños, la dosis varía según la edad y el peso.",
+        "efectosSecundarios": {
+          "comunes": [
+            "Náuseas",
+            "Dolor abdominal",
+            "Diarrea",
+            "Sequedad de boca",
+            "Dolor de cabeza"
+          ],
+          "graves": [
+            "Reacciones alérgicas severas (como anafilaxia)",
+            "Erupciones cutáneas graves (como síndrome de Stevens-Johnson)",
+            "Broncoespasmo en pacientes sensibles",
+            "Edema facial o labial"
+          ]
+        },
+        "contraindicaciones": [
+          "Hipersensibilidad a la bromhexina o a alguno de sus componentes.",
+          "Úlcera gástrica activa o sangrado gastrointestinal.",
+          "Insuficiencia renal o hepática severa sin ajuste de dosis.",
+          "Niños menores de 2 años sin supervisión médica."
+        ],
+        "interacciones": [
+          "Antitusígenos (como codeína): puede dificultar la expulsión del moco.",
+          "Antibióticos como amoxicilina: la bromhexina puede aumentar la penetración del antibiótico en el tejido pulmonar.",
+          "Alcohol: puede potenciar los efectos irritantes en la mucosa gástrica."
+        ],
+        "faq": [
+          {
+            "pregunta": "¿Bromhexina puede usarse en niños pequeños?",
+            "respuesta": "Sí, pero debe administrarse bajo la supervisión de un médico, especialmente en niños menores de 2 años."
+          },
+          {
+            "pregunta": "¿Cuánto tiempo puedo tomar bromhexina?",
+            "respuesta": "No se recomienda usar bromhexina por más de 7-10 días sin consultar a un médico."
+          },
+          {
+            "pregunta": "¿Bromhexina puede causar reacciones alérgicas?",
+            "respuesta": "Sí, aunque raras, pueden ocurrir reacciones alérgicas severas. En caso de erupción o dificultad para respirar, busque atención médica de inmediato."
+          }
+        ],
+        "recomendaciones": [
+          "Beber abundante agua para facilitar la acción mucolítica.",
+          "No combinar con antitusígenos sin consultar al médico.",
+          "Interrumpir el uso si aparecen reacciones alérgicas o efectos secundarios graves.",
+          "Consultar a un médico antes de usar si tiene antecedentes de úlceras gástricas o enfermedades hepáticas."
+        ]
+      }                
     ],
     "respuestasGenerales": {
       "saludos": [

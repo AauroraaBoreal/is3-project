@@ -20,7 +20,7 @@ def cargar_datos():
         datos = json.load(file)
     return datos
 
-def generar_patrones_y_respuestas(datos):
+def generar_patrones_y_respuestas(datos):  
     """
     Genera pares de patrones y respuestas basados en la estructura del nuevo JSON
     """

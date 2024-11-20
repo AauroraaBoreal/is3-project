@@ -8,51 +8,67 @@ import Login from '../Login/login';
 
 function App() {
   const [mostrarLogin, setMostrarLogin] = useState(false);
+  // Estado para controlar si se muestra la pantalla del login
   const [messages, setMessages] = useState([]);
+  // Manejar los mensajes en la conversacion, inicialmente vacio
 
   const manejarMostrarLogin = () => {
     setMostrarLogin(true);
+    // Estado para mostrar la pantalla de inicio de sesion
   };
   const handleSendMessage = async (userMessage) => {
+    // Maneja el envío de un mensaje
     if (userMessage.trim() !== "") {
+      // Comprueba que el mensaje no este vacio
       setMessages((prevMessages) => [
         ...prevMessages,
         { type: 'user', text: userMessage }
+        // Añade el mensaje del usuario al estado messages
       ]);
   
-      // Track if the last message was an upload type
+      // Verifica si el mensaje es del tipo de subida de archivo (comienza con "Uploaded file:")
       const isUploadMessage = userMessage.startsWith("Uploaded file:");
   
       try {
-        const response = await fetch('http://127.0.0.1:5001/chatbot', {
-          method: 'POST',
+        const response = await fetch('http://127.0.0.1:5001/chatbot', { 
+          // Hace una peticion HTTP POST al endpoint del chatbot
+
+          method: 'POST', 
+          // Metodo HTTP utilizado para la solicitud
+
           headers: {
-            'Content-Type': 'application/json',
+            'Content-Type': 'application/json', 
+            // Establece el tipo de contenido como JSON
           },
-          body: JSON.stringify({ inputCode: userMessage }),
+
+          body: JSON.stringify({ inputCode: userMessage }), 
+          // Envia el mensaje del usuario como un JSON en el cuerpo de la solicitud
         });
   
-        const data = await response.json();
-        console.log("API Response:", data); // Debug log for API response
+        const data = await response.json(); 
+        // Parsea la respuesta del servidor a un objeto JSON.
+
+        console.log("API Response:", data); 
+        // Imprime en consola la respuesta de la API para propósitos de depuracion
   
-        // Ensure the response is a string before rendering
+        // Se asegura de que la respuesta es una cadena
         if (data.response && typeof data.response === "string") {
           setMessages((prevMessages) => {
-            // Check if the last message was an upload type and if we should skip responses
+            
             if (isUploadMessage) {
               const uploadMessageCount = prevMessages.filter(
                 (msg) => msg.type === 'bot' && msg.isUploadResponse
               ).length;
   
-              // Skip the first two bot responses after upload
               if (uploadMessageCount < 1) {
-                return prevMessages; // Do not add this message
+                return prevMessages; 
               }
             }
   
             return [
               ...prevMessages,
               { type: 'bot', text: data.response, isUploadResponse: isUploadMessage }
+              // Añade la respuesta del bot al estado 'messages'
             ];
           });
         } else {

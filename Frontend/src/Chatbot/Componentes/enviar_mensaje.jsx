@@ -1,32 +1,45 @@
 import React, { useState } from 'react';
 
 function Enviarmensaje({ onSendMessage }) {
+  // Recibe 'onSendMessage' como prop para manejar el envio de mensajes
+
   const [inputValue, setInputValue] = useState("");
+  // Controlar el valor del campo de entrada de texto
   const [uploading, setUploading] = useState(false);
+  // Estado para mostrar un indicador mientras se sube un archivo
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
+    // Actualiza el estado 'inputValue' con el valor del campo de entrada.
   };
 
   const handleButtonClick = () => {
     onSendMessage(inputValue);
-    setInputValue(""); // Clear input after sending
+    // Llama a la función pasando el mensaje del usuario
+    setInputValue(""); // Limpia el input despues de enviar
   };
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
+      // Detecta si se presiona la tecla "Enter"
       handleButtonClick();
+      // Llama a la funcion para enviar el mensaje
     }
   };
 
   const handleFileUpload = async (event) => {
     const file = event.target.files[0];
+    // Obtiene el archivo seleccionado por el usuario
     if (file) {
-      // Step 1: Inform the user about the file upload
+      // Comprueba si un archivo fue seleccionado.
       onSendMessage(`Uploaded file: ${file.name}`);
+      // Informa al usuario sobre el archivo subido
   
       const formData = new FormData();
+      // Crea un objeto para enviar el archivo
+
       formData.append('file', file);
+      // Añade el archivo al objeto
   
       try {
         // Step 2: Send the file to the backend
