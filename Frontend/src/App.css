@@ -138,6 +138,12 @@
   .enviar-mensaje button:hover{
     background-color: #6c3a89;
   }
+  .enviar-mensaje .carpeta{
+    margin: 20px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
   .Boton-NuevaConversacion{
     border: none;
     margin: 20px;

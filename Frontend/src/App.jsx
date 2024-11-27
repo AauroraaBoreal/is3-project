@@ -99,16 +99,16 @@ function Chatbot() {
     }
   };
 
-  const handleSendMessage = async (userMessage) => {
-    if (userMessage.trim() !== '') {
+  const handleSendMessage = async (messageText, messageType = 'user') => {
+    if (messageText.trim() !== '') {
       try {
         const body = {
-          mensaje: userMessage,
-          tipo: 'user',
+          mensaje: messageText,
+          tipo: messageType,
           conversacionId: conversacionActual,
         };
 
-        // Enviar el mensaje del usuario al backend
+        // Enviar el mensaje al backend
         const response = await fetch('http://localhost:5000/api/mensajes', {
           method: 'POST',
           headers: {
@@ -127,36 +127,42 @@ function Chatbot() {
           cargarConversaciones();
         }
 
-        // Añade el mensaje del usuario al estado
-        setMessages((prev) => [...prev, { type: 'user', text: userMessage }]);
+        // Añade el mensaje al estado
+        setMessages((prev) => [...prev, { type: messageType, text: messageText }]);
 
-        // Llamada al chatbot backend
-        const botResponse = await fetch('http://127.0.0.1:5001/chatbot', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ inputCode: userMessage }),
-        });
-        const botData = await botResponse.json();
-        const botMessage = botData?.text || botData;
+        if (messageType === 'user') {
+          // Verifica si el mensaje es de tipo "Uploaded file:"
+          const isUploadMessage = messageText.startsWith("Uploaded file:");
+          if (!isUploadMessage) {
+            // Llamada al chatbot backend
+            const botResponse = await fetch('http://127.0.0.1:5001/chatbot', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ inputCode: messageText }),
+            });
+            const botData = await botResponse.json();
+            const botMessage = botData.response;
 
-        // Guarda el mensaje del bot en el backend
-        const botBody = {
-          mensaje: botMessage,
-          tipo: 'bot',
-          conversacionId: conversacionActual,
-        };
+            // Guarda el mensaje del bot en el backend
+            const botBody = {
+              mensaje: botMessage,
+              tipo: 'bot',
+              conversacionId: conversacionActual,
+            };
 
-        await fetch('http://localhost:5000/api/mensajes', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`,
-          },
-          body: JSON.stringify(botBody),
-        });
+            await fetch('http://localhost:5000/api/mensajes', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`,
+              },
+              body: JSON.stringify(botBody),
+            });
 
-        // Añade el mensaje del bot al estado
-        setMessages((prev) => [...prev, { type: 'bot', text: botMessage }]);
+            // Añade el mensaje del bot al estado
+            setMessages((prev) => [...prev, { type: 'bot', text: botMessage }]);
+          }
+        }
       } catch (error) {
         console.error('Error al enviar el mensaje:', error);
       }
