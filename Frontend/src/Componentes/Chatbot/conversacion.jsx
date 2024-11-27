@@ -1,4 +1,6 @@
+// src/Componentes/Chatbot/conversacion.jsx
 import React from 'react';
+
 
 function Conversacion({ messages }) {
   return (

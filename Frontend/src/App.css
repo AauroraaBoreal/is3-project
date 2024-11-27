@@ -9,6 +9,27 @@
     padding: 20px;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
   }
+
+  .barralateral .conversaciones-lista{
+    
+    margin: 5px;
+  }
+
+  .barralateral .conversacion-item{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .barralateral .conversacion-item:hover{
+    background-color: rgb(184, 184, 184);
+  }
+  .barralateral .seleccionado{
+    background-color: #4CAF50; /* Fondo verde cuando está seleccionada */
+    color: white;
+  }
   
   .contenido-principal {
     flex: 1;
@@ -22,6 +43,19 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;  
+  }
+
+  .cabecera .cerrar-sesion{
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.4s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .cabecera .cerrar-sesion:hover{
+    background-color: rgb(242, 113, 113);
+    
   }
 
   .page_chat{
@@ -47,6 +81,7 @@
     box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
     overflow-y: auto;
   }
+
   
   .mensaje-usuario{
     margin-bottom: 15px;
@@ -84,8 +119,9 @@
   
   .enviar-mensaje input {
     flex: 1;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ddd;
+    background-color: rgb(244 244 244);
     border-radius: 20px;
     margin-right: 10px;
   }
@@ -94,9 +130,19 @@
     background-color: #6a1b9a;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border-radius: 20px;
     cursor: pointer;
   }
-  
+
+  .enviar-mensaje button:hover{
+    background-color: #6c3a89;
+  }
+  .Boton-NuevaConversacion{
+    border: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
   

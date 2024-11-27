@@ -8,15 +8,17 @@ function Enviarmensaje({ onSendMessage }) {
   };
 
   const handleButtonClick = () => {
-    onSendMessage(inputValue);
-    setInputValue(""); // Limpiar el input después de enviar
+    if (inputValue.trim()) {
+      onSendMessage(inputValue);
+      setInputValue("");
+    }
   };
-  
+
   const handleKeyDown = (e) => {
-      if (e.key === 'Enter') {
-        handleButtonClick();
-      }
-    };
+    if (e.key === 'Enter') {
+      handleButtonClick();
+    }
+  };
 
   return (
     <div className="enviar-mensaje">
@@ -27,7 +29,7 @@ function Enviarmensaje({ onSendMessage }) {
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
       />
-      <button onClick={handleButtonClick}>Submit</button>
+      <button onClick={handleButtonClick}>Enviar</button>
     </div>
   );
 }

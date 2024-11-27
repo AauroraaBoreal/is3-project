@@ -1,94 +1,208 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState, useEffect, useCallback   } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { useAuth } from './Componentes/Chatbot/Context/Contexto_Aunteticacion';
+import Formulariologin from './Componentes/Login/formulario-login';
+import Formularioregistro from './Componentes/Login/formulario-registro';
 import BarraLateral from './Componentes/Chatbot/barralateral';
 import Cabecera from './Componentes/Chatbot/cabecera';
 import Conversacion from './Componentes/Chatbot/conversacion';
-import Enviarmensaje from './Componentes/Chatbot/enviar_mensaje';
-import Login from './Componentes/Login/login';
+import EnviarMensaje from './Componentes/Chatbot/enviar_mensaje';
+import './App.css';
 
-function App() {
-  const [mostrarLogin, setMostrarLogin] = useState(false);
+// Componente principal del chatbot
+function Chatbot() {
   const [messages, setMessages] = useState([]);
+  const [conversaciones, setConversaciones] = useState([]);
+  const [conversacionActual, setConversacionActual] = useState(null);
+  const { token, usuario } = useAuth();
 
-  const manejarMostrarLogin = () => {
-    setMostrarLogin(true);
+  // Función para cargar conversaciones
+  const cargarConversaciones = useCallback( async () => {
+    try {
+      const response = await fetch('http://localhost:5000/api/conversaciones', {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        setConversaciones(data);
+      }
+    } catch (error) {
+      console.error('Error al cargar conversaciones:', error);
+    }
+  }, [token]);
+
+  // Cargar lista de conversaciones al montar el componente o cuando el token cambie
+  useEffect(() => {
+    if (!token) return;
+    cargarConversaciones();
+  }, [token, cargarConversaciones]);
+
+  // Cargar mensajes de la conversación actual
+  useEffect(() => { 
+    if (!token || !conversacionActual) return;
+
+    const cargarMensajesConversacion = async () => {
+      try {
+        const response = await fetch(`http://localhost:5000/api/conversaciones/${conversacionActual}/mensajes`, {
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+        
+        if (response.ok) {
+          const data = await response.json();
+          setMessages(data.map(msg => ({
+            type: msg.tipo,
+            text: msg.mensaje
+          })));
+        }
+      } catch (error) {
+        console.error('Error al cargar mensajes:', error);
+      }
+    };
+
+    cargarMensajesConversacion();
+  }, [token, conversacionActual]);
+
+  // Verifica que haya un usuario autenticado
+  if (!token || !usuario) {
+    return <Navigate to="/" />;
+  }
+
+  // Función para crear una nueva conversación
+  const handleNuevaConversacion = async () => {
+    try {
+      // Llamada al backend para crear una nueva conversación
+      const response = await fetch('http://localhost:5000/api/conversaciones', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      });
+
+      if (response.ok) {
+        const newConversation = await response.json();
+        // Actualizar la lista de conversaciones
+        setConversaciones((prevConversations) => [newConversation, ...prevConversations]);
+        // Establecer la nueva conversación como la actual
+        setConversacionActual(newConversation.id);
+        // Limpiar los mensajes
+        setMessages([]);
+      } else {
+        console.error('Error al crear una nueva conversación');
+      }
+    } catch (error) {
+      console.error('Error al crear una nueva conversación:', error);
+    }
   };
 
-  // const handleSendMessage = (userMessage) => {
-  //   if (userMessage.trim() !== "") {
-  //     // Agregar mensaje del usuario
-  //     setMessages((prevMessages) => [
-  //       ...prevMessages,
-  //       { type: 'user', text: userMessage }
-  //     ]);
-
-  //     // Simular respuesta del bot
-  //     setTimeout(() => {
-  //       setMessages((prevMessages) => [
-  //         ...prevMessages,
-  //         { type: 'bot', text: "Hola, ¿en qué puedo ayudarte?" }
-  //       ]);
-  //     }, 1000);
-  //   }
-  // };
-  // 
-  // 
   const handleSendMessage = async (userMessage) => {
-    if (userMessage.trim() !== "") {
-      // Add user message to chat
-      setMessages((prevMessages) => [
-        ...prevMessages,
-        { type: 'user', text: userMessage }
-      ]);
-  
+    if (userMessage.trim() !== '') {
       try {
-        // Send the message to the chatbot API
-        const response = await fetch('http://127.0.0.1:5001/chatbot', {
+        const body = {
+          mensaje: userMessage,
+          tipo: 'user',
+          conversacionId: conversacionActual,
+        };
+
+        // Enviar el mensaje del usuario al backend
+        const response = await fetch('http://localhost:5000/api/mensajes', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`,
           },
+          body: JSON.stringify(body),
+        });
+
+        const data = await response.json();
+
+        // Si no hay una conversación actual, establecerla
+        if (!conversacionActual && data.conversacionId) {
+          setConversacionActual(data.conversacionId);
+          // Actualizar la lista de conversaciones
+          cargarConversaciones();
+        }
+
+        // Añade el mensaje del usuario al estado
+        setMessages((prev) => [...prev, { type: 'user', text: userMessage }]);
+
+        // Llamada al chatbot backend
+        const botResponse = await fetch('http://127.0.0.1:5001/chatbot', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ inputCode: userMessage }),
         });
-  
-        const data = await response.json();
-  
-        // Log the received data to ensure it's correct
-        console.log('Received from API:', data);
-  
-        // Add chatbot response to chat
-        setMessages((prevMessages) => {
-          console.log("Updating messages:", [...prevMessages, { type: 'bot', text: data }]);
-          return [...prevMessages, { type: 'bot', text: data }];
+        const botData = await botResponse.json();
+        const botMessage = botData?.text || botData;
+
+        // Guarda el mensaje del bot en el backend
+        const botBody = {
+          mensaje: botMessage,
+          tipo: 'bot',
+          conversacionId: conversacionActual,
+        };
+
+        await fetch('http://localhost:5000/api/mensajes', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`,
+          },
+          body: JSON.stringify(botBody),
         });
-  
+
+        // Añade el mensaje del bot al estado
+        setMessages((prev) => [...prev, { type: 'bot', text: botMessage }]);
       } catch (error) {
-        console.error("Error fetching chatbot response:", error);
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          { type: 'bot', text: "Error: Could not connect to chatbot." }
-        ]);
+        console.error('Error al enviar el mensaje:', error);
       }
     }
   };
+
   return (
-    <div>
-      {mostrarLogin ? ( 
-        <Login />
-      ) : (
-        <>
-          <div className='contenedor-app'>
-            <BarraLateral />
-            <div className="contenido-principal">
-              <Cabecera LoginClick={manejarMostrarLogin} />
-              <Conversacion messages={messages} />
-              <Enviarmensaje onSendMessage={handleSendMessage} />
-            </div>
-          </div>
-        </>
-      )} 
+    <div className="contenedor-app">
+      <BarraLateral 
+        conversaciones={conversaciones}
+        setConversacionActual={setConversacionActual}
+        handleNuevaConversacion={handleNuevaConversacion}
+      />
+      <div className="contenido-principal">
+        <Cabecera />
+        <Conversacion messages={messages} />
+        <EnviarMensaje onSendMessage={handleSendMessage} />
+      </div>
     </div>
   );
-} 
+}
+
+// Componente principal
+function App() {
+  const { token, usuario } = useAuth();
+
+  return (
+    <Router>
+      <Routes>
+        {/* Añadir la ruta al componente Registro */}
+        <Route path="/registro" element={<Formularioregistro />} />
+
+        {/* Ruta para el formulario de login */}
+        <Route 
+          path="/" 
+          element={token && usuario ? <Navigate to="/chatbot" /> : <Formulariologin />} 
+        />
+
+        {/* Ruta para el chatbot, accesible solo si el usuario está autenticado */}
+        <Route path="/chatbot" element={<Chatbot />} />
+
+        {/* Redirección para rutas desconocidas */}
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
